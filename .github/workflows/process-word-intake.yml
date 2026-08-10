@@ -27,6 +27,8 @@ jobs:
           node-version: "22"
 
       - name: Enrich pending vocabulary
+        id: enrich
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_VOCAB_MODEL || 'gpt-5.6-luna' }}
@@ -43,3 +45,9 @@ jobs:
           git add word-intake processed-words processing-errors
           git commit -m "Automatically enrich vocabulary intake"
           git push
+
+      - name: Report enrichment failure
+        if: steps.enrich.outcome == 'failure'
+        run: |
+          echo "One or more vocabulary records could not be enriched. Check processing-errors/."
+          exit 1

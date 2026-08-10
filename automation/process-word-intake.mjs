@@ -1,4 +1,4 @@
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,7 +13,8 @@ export function validIntake(record) {
     && typeof record.date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(record.date)
     && typeof record.content === "string" && record.content.trim()
     && record.content.trim() !== record.id
-    && record.status !== "published" && record.status !== "needs_review");
+    && record.status !== "published"
+    && (record.status !== "needs_review" || /quota|credit balance|insufficient/i.test(record.processingError || "")));
 }
 
 export function validVocabularySet(set) {
@@ -120,9 +121,10 @@ async function enrich(record, apiKey, model) {
 }
 
 async function writeError(record, file, message) {
+  const retryable = /429|quota|credit balance|insufficient_quota/i.test(message);
   await mkdir(errorDirectory, { recursive: true });
-  await writeFile(path.join(errorDirectory, `${record.id || path.basename(file, ".json")}.json`), `${JSON.stringify({ id: record.id, file, status: "needs_review", error: message, recordedAt: new Date().toISOString() }, null, 2)}\n`);
-  if (record.id) await writeFile(path.join(intakeDirectory, file), `${JSON.stringify({ ...record, status: "needs_review", processingError: message }, null, 2)}\n`);
+  await writeFile(path.join(errorDirectory, `${record.id || path.basename(file, ".json")}.json`), `${JSON.stringify({ id: record.id, file, status: retryable ? "retry_pending" : "needs_review", retryable, error: message, recordedAt: new Date().toISOString() }, null, 2)}\n`);
+  if (record.id) await writeFile(path.join(intakeDirectory, file), `${JSON.stringify({ ...record, status: retryable ? "pending_review" : "needs_review", processingError: message }, null, 2)}\n`);
 }
 
 export async function processPending({ apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL || "gpt-5.6-luna" } = {}) {
@@ -130,6 +132,7 @@ export async function processPending({ apiKey = process.env.OPENAI_API_KEY, mode
   await mkdir(outputDirectory, { recursive: true });
   const files = (await readdir(intakeDirectory)).filter((file) => file.endsWith(".json")).sort();
   let published = 0;
+  let failed = 0;
   for (const file of files) {
     const record = JSON.parse(await readFile(path.join(intakeDirectory, file), "utf8"));
     if (!validIntake(record) || existsSync(path.join(outputDirectory, `${record.id}.json`))) continue;
@@ -139,11 +142,14 @@ export async function processPending({ apiKey = process.env.OPENAI_API_KEY, mode
       if (!validVocabularySet(set)) throw new Error("The generated vocabulary record failed validation.");
       await writeFile(path.join(outputDirectory, `${record.id}.json`), `${JSON.stringify(set, null, 2)}\n`);
       await writeFile(path.join(intakeDirectory, file), `${JSON.stringify({ ...record, status: "published", processedAt: set.processedAt, output: `processed-words/${record.id}.json` }, null, 2)}\n`);
+      await unlink(path.join(errorDirectory, `${record.id}.json`)).catch(() => {});
       published += 1;
     } catch (error) {
       await writeError(record, file, error instanceof Error ? error.message : String(error));
+      failed += 1;
     }
   }
+  if (failed) throw new Error(`${failed} vocabulary intake record(s) could not be enriched.`);
   return published;
 }
 

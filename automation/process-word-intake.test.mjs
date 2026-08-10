@@ -11,6 +11,10 @@ test("rejects empty and malformed shortcut records", () => {
   assert.equal(validIntake({ id: "2026-08-10-123456", date: "2026-08-10", content: "2026-08-10-123456" }), false);
 });
 
+test("allows a quota failure to be retried after billing is enabled", () => {
+  assert.equal(validIntake({ id: "2026-08-10-123456", date: "2026-08-10", content: "squeaky", status: "needs_review", processingError: "insufficient_quota: credit balance exhausted" }), true);
+});
+
 test("requires complete learning and testing fields", () => {
   assert.equal(validVocabularySet({ id: "auto-1", date: "2026-08-10", label: "Automatic", words: [], questions: [] }), false);
 });
