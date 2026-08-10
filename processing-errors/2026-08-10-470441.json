@@ -1,0 +1,7 @@
+{
+  "id": "2026-08-10-470441",
+  "file": "2026-08-10-470441.json",
+  "status": "needs_review",
+  "error": "OpenAI API returned 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}",
+  "recordedAt": "2026-08-10T10:54:09.130Z"
+}
