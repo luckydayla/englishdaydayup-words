@@ -1,0 +1,14 @@
+{
+  "id": "capture-words-1786358302729-566f20d0",
+  "intakeId": "words-1786358302729-566f20d0",
+  "date": "2026-08-10",
+  "label": "Automatic · Capture It",
+  "source": "Capture It",
+  "status": "published",
+  "reviewDates": { "day3": "2026-08-13", "day5": "2026-08-15", "day15": "2026-08-25" },
+  "words": [{
+    "term": "damn", "meaning": "An informal, potentially offensive word used to express anger, frustration, surprise, or strong emphasis.", "pronunciation": "/dæm/", "type": "Informal expression", "register": "Informal and potentially offensive", "pattern": "Damn!; a damn problem; not give a damn", "cue": "strong emotion—use cautiously", "example": "In an executive setting, use ‘extremely frustrating’ instead of ‘damn frustrating.’", "businessExample": "In an executive setting, use ‘extremely frustrating’ instead of ‘damn frustrating.’", "everydayExample": "Damn, I left my keys at home, she said quietly.", "contrast": "Darn is a softer euphemism; extremely or deeply is safer professionally.", "recallPrompt": "How can you express strong frustration without sounding aggressive?"
+  }],
+  "story": { "title": "The word that changed the room", "cues": ["Frustration", "Impact", "Pause", "Reframe"], "paragraphs": ["An executive called the recurring shortage a damn mess, making the team defensive.", "Maya reframed it as a serious system failure and redirected the room from blame to action."], "highlights": ["damn"] },
+  "questions": [{ "prompt": "In informal speech, ‘I don’t give a ________’ means ‘I do not care at all.’", "answer": "damn", "accepted": ["damn"], "note": "This expression is informal and can sound rude." }, { "prompt": "Replace ‘This is damn frustrating’ with a professional alternative.", "answer": "This is extremely frustrating.", "accepted": ["this is extremely frustrating", "this is deeply frustrating", "this is incredibly frustrating"], "note": "Use a precise intensifier professionally." }]
+}

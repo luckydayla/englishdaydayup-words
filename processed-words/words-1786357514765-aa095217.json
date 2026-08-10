@@ -1,0 +1,15 @@
+{
+  "id": "capture-words-1786357514765-aa095217",
+  "intakeId": "words-1786357514765-aa095217",
+  "date": "2026-08-10",
+  "label": "Automatic · Capture It",
+  "source": "Capture It",
+  "status": "published",
+  "reviewDates": { "day3": "2026-08-13", "day5": "2026-08-15", "day15": "2026-08-25" },
+  "words": [
+    { "term": "plagiarize", "meaning": "Use another person’s words, ideas, or work and present them as your own without proper acknowledgement.", "pronunciation": "/ˈpleɪdʒəraɪz/", "type": "Verb", "register": "Neutral but serious", "pattern": "plagiarize a passage or idea; plagiarize from someone", "cue": "copy without credit", "example": "Leaders must ensure AI-assisted reports do not plagiarize external research.", "businessExample": "Leaders must ensure AI-assisted reports do not plagiarize external research.", "everydayExample": "The student was penalized for plagiarizing several paragraphs.", "contrast": "Copy is broad; plagiarize specifically involves missing or misleading attribution.", "recallPrompt": "How should a company prevent AI-assisted plagiarism?" },
+    { "term": "rip-off", "meaning": "Something grossly overpriced, or an imitation that unfairly copies another work or product.", "pronunciation": "/ˈrɪp ɒf/", "type": "Informal noun", "register": "Informal and critical", "pattern": "a complete rip-off; a rip-off of something", "cue": "unfair price or obvious copy", "example": "The campaign looked like a rip-off of a competitor’s concept.", "businessExample": "The campaign looked like a rip-off of a competitor’s concept.", "everydayExample": "Twenty dollars for water felt like a complete rip-off.", "contrast": "Use overpriced or unauthorized imitation in formal writing.", "recallPrompt": "When would rip-off be too confrontational in an executive discussion?" }
+  ],
+  "story": { "title": "The campaign that looked too familiar", "cues": ["Similarity", "Attribution", "Risk", "Originality"], "paragraphs": ["Maya discovered that several campaign lines had been plagiarized from a competitor.", "The creative director called the proposal a rip-off. The team stopped the release and rebuilt the concept around original consumer insight."], "highlights": ["plagiarized", "rip-off"] },
+  "questions": [{ "prompt": "Writers must cite sources so they do not ________ another person’s work.", "answer": "plagiarize", "accepted": ["plagiarize"], "note": "Plagiarize involves using work without proper acknowledgement." }, { "prompt": "The product was an obvious ________ of a competitor’s design.", "answer": "rip-off", "accepted": ["rip-off", "ripoff"], "note": "The countable noun is normally hyphenated." }]
+}

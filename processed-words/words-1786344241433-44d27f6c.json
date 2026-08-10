@@ -1,0 +1,14 @@
+{
+  "id": "capture-words-1786344241433-44d27f6c",
+  "intakeId": "words-1786344241433-44d27f6c",
+  "date": "2026-08-10",
+  "label": "Automatic · Capture It",
+  "source": "Capture It",
+  "status": "published",
+  "reviewDates": { "day3": "2026-08-13", "day5": "2026-08-15", "day15": "2026-08-25" },
+  "words": [{
+    "term": "take the reins", "meaning": "Assume control, responsibility, or leadership of a situation or organization.", "pronunciation": "/teɪk ðə reɪnz/", "type": "Idiomatic expression", "register": "Neutral and natural in business", "pattern": "take the reins of something; take over the reins from someone", "cue": "grasp the reins → take control", "example": "Maya took the reins of the recovery program when the transformation lost momentum.", "businessExample": "Maya took the reins of the recovery program when the transformation lost momentum.", "everydayExample": "After their parents retired, the children took the reins of the family business.", "contrast": "Take the lead can mean becoming most active; take the reins more strongly suggests assuming control.", "recallPrompt": "When should a leader take the reins rather than delegate?"
+  }],
+  "story": { "title": "Taking control of the recovery", "cues": ["Drift", "Ownership", "Direction", "Recovery"], "paragraphs": ["The regional transformation had lost momentum because decisions were spread across several committees.", "The CEO asked Maya to take the reins. She clarified decision rights and gave every workstream one accountable owner."], "highlights": ["take the reins"] },
+  "questions": [{ "prompt": "When the program lost direction, Maya was asked to ________.", "answer": "take the reins", "accepted": ["take the reins"], "note": "The expression means assume control or responsibility." }, { "prompt": "Write one executive sentence using take the reins.", "answer": "Answers vary", "accepted": ["answers vary"], "note": "Use take the reins of something, or omit of when the context is clear." }]
+}
