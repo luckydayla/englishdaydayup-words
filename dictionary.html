@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Master Vocabulary Dictionary</title>
+  <style>
+    :root { --ink:#18201b; --muted:#667069; --paper:#f4f0e7; --card:#fbf8f1; --line:#c8c0b3; --orange:#d55c3d; --lime:#d8e94d; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    main { max-width:1050px; margin:auto; padding:48px 28px 80px; }
+    header { display:grid; grid-template-columns:1fr auto; gap:30px; align-items:end; padding-bottom:28px; border-bottom:1px solid var(--ink); }
+    .eyebrow { margin:0 0 12px; color:var(--orange); font-size:11px; font-weight:800; letter-spacing:.17em; text-transform:uppercase; }
+    h1 { margin:0; max-width:700px; font:500 clamp(46px,7vw,78px)/.92 Georgia,serif; letter-spacing:-.05em; }
+    h1 em { color:var(--orange); font-weight:500; }
+    .count { width:130px; height:130px; display:grid; place-items:center; border-radius:50%; background:var(--lime); text-align:center; }
+    .count strong { display:block; font:500 48px/1 Georgia,serif; }
+    .count span { font-size:9px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    .controls { display:grid; grid-template-columns:1fr 190px auto; gap:10px; margin:32px 0; }
+    input, select, button { min-height:45px; padding:0 14px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; }
+    button { border-color:var(--ink); background:var(--ink); color:var(--paper); font-weight:700; cursor:pointer; }
+    .index-block { margin-bottom:22px; }
+    .index-label { margin:0 0 9px; color:var(--orange); font-size:9px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    .alphabet,.categories { display:flex; flex-wrap:wrap; gap:6px; }
+    .alphabet button,.categories button { min-height:31px; padding:0 10px; border-color:var(--line); background:transparent; color:var(--muted); font-size:10px; }
+    .alphabet button { width:31px; padding:0; }
+    .alphabet button:first-child { width:auto; padding:0 10px; }
+    .alphabet button.has,.categories button { border-color:var(--ink); color:var(--ink); background:var(--card); }
+    .alphabet button.active,.categories button.active { color:var(--ink); background:var(--lime); }
+    .entry { display:grid; grid-template-columns:58px minmax(190px,.8fr) minmax(260px,1.4fr) 170px 90px; gap:16px; align-items:center; min-height:96px; padding:17px 18px; border-top:1px solid var(--line); background:rgba(251,248,241,.45); }
+    .entry:last-child { border-bottom:1px solid var(--line); }
+    .number { color:var(--orange); font:11px monospace; }
+    .term { font:500 27px/1.1 Georgia,serif; letter-spacing:-.025em; }
+    .meaning { color:var(--muted); font:15px/1.45 Georgia,serif; }
+    .meta strong { display:block; font-size:10px; text-transform:uppercase; letter-spacing:.1em; }
+    .status { justify-self:end; padding:6px 9px; border:1px solid var(--ink); font-size:9px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+    .empty { display:none; padding:70px 10px; color:var(--muted); text-align:center; font:24px Georgia,serif; }
+    footer { display:flex; justify-content:space-between; margin-top:48px; padding-top:14px; border-top:1px solid var(--ink); color:var(--muted); font-size:10px; letter-spacing:.08em; text-transform:uppercase; }
+    @media(max-width:800px) { header{grid-template-columns:1fr}.count{width:100px;height:100px}.controls{grid-template-columns:1fr}.entry{grid-template-columns:36px 1fr}.entry .meaning,.entry .meta,.entry .status{grid-column:2}.status{justify-self:start} }
+    @media print { body{background:white} main{max-width:none;padding:18mm} .controls,.index-block{display:none} .entry{break-inside:avoid;background:white} button{display:none} }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">English Day Day Up · Master Index</p><h1>My vocabulary<br><em>dictionary.</em></h1></div>
+      <div class="count"><div><strong id="total">33</strong><span>visible entries</span></div></div>
+    </header>
+
+    <section class="controls" aria-label="Dictionary controls">
+      <input id="search" type="search" placeholder="Search words and expressions…" aria-label="Search vocabulary">
+      <select id="status" aria-label="Filter by status"><option value="all">All statuses</option><option value="New">New</option><option value="Learning">Learning</option><option value="Active">Active</option><option value="Mastered">Mastered</option></select>
+      <button onclick="window.print()">Print dictionary</button>
+    </section>
+
+    <section class="index-block"><p class="index-label">Index by letter</p><nav class="alphabet" id="alphabet" aria-label="Filter by first letter"></nav></section>
+    <section class="index-block"><p class="index-label">Index by category</p><nav class="categories" id="categories" aria-label="Filter by word category"></nav></section>
+    <section id="entries" aria-live="polite"></section>
+    <div class="empty" id="empty">No matching vocabulary entries.</div>
+    <footer><span>33 entries · Started 8 August 2026</span><span>Last updated 12 August 2026</span></footer>
+  </main>
+  <script>
+    const data=[
+      {term:"at face value",type:"Idiomatic expression",meaning:"Based only on how something first appears, without questioning whether it is complete or true.",status:"New"},
+      {term:"belittle",type:"Verb",meaning:"Make someone or their achievements seem unimportant or inferior.",status:"New"},
+      {term:"basket spend",type:"Noun phrase",meaning:"The amount a shopper spends in one transaction or shopping basket.",status:"New"},
+      {term:"bat away",type:"Phrasal verb",meaning:"Deflect something physically or dismiss a question, concern, or criticism quickly.",status:"New"},
+      {term:"boozer",type:"Informal noun",meaning:"In British informal English, a person who drinks heavily or a pub.",status:"New"},
+      {term:"clash",type:"Verb",meaning:"Disagree strongly, come into conflict, or be incompatible.",status:"New"},
+      {term:"crack",type:"Verb",meaning:"Begin to fail, weaken, or lose emotional control under sustained pressure.",status:"New"},
+      {term:"cut corners",type:"Idiomatic expression",meaning:"Save time, effort, or money by doing something less thoroughly, often compromising standards.",status:"New"},
+      {term:"damn",type:"Informal expression",meaning:"Expresses anger, frustration, surprise, or strong emphasis; potentially offensive and best avoided in formal professional communication.",status:"New"},
+      {term:"eavesdrop",type:"Verb",meaning:"Secretly listen to a private conversation without the speakers' knowledge or permission.",status:"New"},
+      {term:"forge",type:"Verb",meaning:"Build or create something strong and durable through sustained effort.",status:"New"},
+      {term:"frazzled",type:"Adjective",meaning:"Mentally and emotionally exhausted because of stress or excessive demands.",status:"New"},
+      {term:"get something off your plate",type:"Idiomatic expression",meaning:"Complete, remove, or delegate a responsibility so it no longer requires your attention.",status:"New"},
+      {term:"get goose bumps",type:"Idiomatic expression",meaning:"Develop raised skin bumps because of cold, fear, excitement, or strong emotion.",status:"New"},
+      {term:"impenetrable",type:"Adjective",meaning:"Extremely difficult or impossible to understand; also impossible to enter or pass through.",status:"New"},
+      {term:"intricate",type:"Adjective",meaning:"Containing many small, interconnected parts or details; complex but often carefully constructed.",status:"New"},
+      {term:"jargon",type:"Noun",meaning:"Specialized language used by a profession or group that may be difficult for outsiders to understand.",status:"New"},
+      {term:"knock back",type:"Phrasal verb",meaning:"Drink something, especially alcohol, quickly or in substantial quantities.",status:"New"},
+      {term:"lose your cool",type:"Idiomatic expression",meaning:"Become angry, upset, or unable to remain calm.",status:"New"},
+      {term:"mental shortcut",type:"Noun phrase",meaning:"A quick, simplified way of making a judgment or decision.",status:"New"},
+      {term:"out drinking",type:"Informal expression",meaning:"Away from home socializing and drinking alcohol, usually in bars, pubs, or restaurants.",status:"New"},
+      {term:"pick yourself up",type:"Phrasal expression",meaning:"Recover emotionally after a setback and continue.",status:"New"},
+      {term:"plagiarize",type:"Verb",meaning:"Use another person’s words, ideas, or work and present them as your own without proper acknowledgement.",status:"New"},
+      {term:"plummet",type:"Verb",meaning:"Fall or decrease suddenly and steeply.",status:"New"},
+      {term:"put someone in their place",type:"Idiomatic expression",meaning:"Firmly correct someone who is behaving arrogantly or disrespectfully.",status:"New"},
+      {term:"scramble",type:"Verb",meaning:"Act very quickly and somewhat chaotically in response to an urgent situation.",status:"New"},
+      {term:"stigma",type:"Noun",meaning:"A strong negative social judgment associated with a person, condition, or behavior.",status:"New"}
+      ,{term:"squeaky",type:"Adjective",meaning:"Making a short, high-pitched sound; figuratively, conspicuously vocal about a problem.",status:"New"}
+      ,{term:"rebarbative",type:"Adjective",meaning:"Unpleasant, irritating, or difficult to tolerate, especially because of someone’s manner, style, or character.",status:"New"}
+      ,{term:"rip-off",type:"Informal noun",meaning:"Something grossly overpriced, or an imitation that unfairly copies another work or product.",status:"New"}
+      ,{term:"take the reins",type:"Idiomatic expression",meaning:"Assume control, responsibility, or leadership of a situation or organization.",status:"New"}
+      ,{term:"underpin",type:"Verb",meaning:"Provide the essential support, evidence, or basis that makes something possible or credible.",status:"New"}
+      ,{term:"walk a fine line",type:"Idiomatic expression",meaning:"Carefully balance between two competing demands or risks.",status:"New"}
+    ];
+    let letter="all",category="all";
+    const alphabet=document.querySelector("#alphabet");
+    ["All",..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].forEach(label=>{const b=document.createElement("button");b.textContent=label==="All"?"ALL":label;b.dataset.letter=label.toLowerCase();if(label==="All")b.className="active has";if(data.some(x=>x.term[0].toUpperCase()===label))b.classList.add("has");b.onclick=()=>{letter=b.dataset.letter;document.querySelectorAll("#alphabet button").forEach(x=>x.classList.toggle("active",x===b));render()};alphabet.appendChild(b)});
+    const categories=document.querySelector("#categories");["All",...new Set(data.map(item=>item.type).sort())].forEach(label=>{const b=document.createElement("button");b.textContent=label;b.dataset.category=label.toLowerCase();if(label==="All")b.className="active";b.onclick=()=>{category=b.dataset.category;document.querySelectorAll("#categories button").forEach(x=>x.classList.toggle("active",x===b));render()};categories.appendChild(b)});
+    function render(){const query=document.querySelector("#search").value.toLowerCase().trim();const status=document.querySelector("#status").value;const filtered=data.filter(x=>(!query||x.term.toLowerCase().includes(query)||x.meaning.toLowerCase().includes(query))&&(status==="all"||x.status===status)&&(letter==="all"||x.term[0].toLowerCase()===letter)&&(category==="all"||x.type.toLowerCase()===category));document.querySelector("#entries").innerHTML=filtered.map((x,i)=>`<article class="entry"><span class="number">${String(i+1).padStart(2,"0")}</span><span class="term">${x.term}</span><span class="meaning">${x.meaning}</span><span class="meta"><strong>${x.type}</strong></span><span class="status">${x.status}</span></article>`).join("");document.querySelector("#total").textContent=filtered.length;document.querySelector("#empty").style.display=filtered.length?"none":"block"}
+    document.querySelector("#search").addEventListener("input",render);document.querySelector("#status").addEventListener("change",render);render();
+  </script>
+</body>
+</html>
