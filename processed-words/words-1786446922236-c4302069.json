@@ -1,0 +1,46 @@
+{
+  "id": "capture-words-1786446922236-c4302069",
+  "intakeId": "words-1786446922236-c4302069",
+  "date": "2026-08-11",
+  "label": "Automatic · Capture It",
+  "source": "Capture It",
+  "status": "published",
+  "reviewDates": { "day3": "2026-08-14", "day5": "2026-08-16", "day15": "2026-08-26" },
+  "words": [{
+    "term": "rebarbative",
+    "meaning": "Unpleasant, irritating, or difficult to tolerate, especially because of someone’s manner, style, or character.",
+    "pronunciation": "/rɪˈbɑːbərətɪv/",
+    "type": "Adjective",
+    "register": "Formal, uncommon, and strongly negative",
+    "pattern": "a rebarbative manner, personality, or style; find someone rebarbative",
+    "cue": "so unpleasant that people pull away",
+    "example": "Although the consultant’s analysis was sound, his rebarbative manner alienated the leadership team.",
+    "businessExample": "Although the consultant’s analysis was sound, his rebarbative manner alienated the leadership team and weakened his influence.",
+    "everydayExample": "The novel’s narrator is deliberately rebarbative, but his hostility gradually reveals deep insecurity.",
+    "contrast": "Abrasive is more common and focuses on a harsh manner; rebarbative more broadly suggests an irritating or repellent manner, style, or character.",
+    "recallPrompt": "How can a technically capable leader lose influence through a rebarbative manner?"
+  }],
+  "story": {
+    "title": "Expertise without influence",
+    "cues": ["Expertise", "Aversion", "Trust", "Influence"],
+    "paragraphs": [
+      "The consultant arrived with a strong diagnosis, but his rebarbative manner quickly alienated the plant leaders.",
+      "Maya translated his recommendations into respectful, practical language and reminded him that influence depends not only on being right, but also on how people experience you."
+    ],
+    "highlights": ["rebarbative"]
+  },
+  "questions": [
+    {
+      "prompt": "Although his analysis was strong, his ________ manner alienated the leadership team.",
+      "answer": "rebarbative",
+      "accepted": ["rebarbative"],
+      "note": "Rebarbative is a formal adjective for a manner, style, or character that is irritating or repellent."
+    },
+    {
+      "prompt": "Use the formal adjective for someone whose unpleasant manner makes them difficult to tolerate.",
+      "answer": "rebarbative",
+      "accepted": ["rebarbative"],
+      "note": "In ordinary conversation, abrasive is usually the more natural alternative."
+    }
+  ]
+}
