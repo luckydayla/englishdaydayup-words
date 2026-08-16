@@ -1,1 +1,8 @@
-{"status":"pending_review","id":"2026-08-17-160686","content":"ballot, makeshift, shattering the dreams, divisive, lose sleep over something, sleep through it ","source":"iphone words","date":"2026-08-17"}
+{
+  "status": "pending_review",
+  "id": "2026-08-17-160686",
+  "content": "ballot, makeshift, shattering the dreams, divisive, lose sleep over something, sleep through it ",
+  "source": "iphone words",
+  "date": "2026-08-17",
+  "processingError": "OpenAI API returned 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}"
+}

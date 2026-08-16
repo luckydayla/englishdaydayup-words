@@ -1,8 +1,8 @@
 {
-  "id": "2026-08-10-303206",
-  "file": "2026-08-10-303206.json",
+  "id": "2026-08-17-160686",
+  "file": "2026-08-17-160686.json",
   "status": "retry_pending",
   "retryable": true,
   "error": "OpenAI API returned 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}",
-  "recordedAt": "2026-08-16T23:05:35.152Z"
+  "recordedAt": "2026-08-16T23:05:36.966Z"
 }

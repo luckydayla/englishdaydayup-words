@@ -3,6 +3,6 @@
   "file": "2026-08-11-652600.json",
   "status": "retry_pending",
   "retryable": true,
-  "error": "OpenAI API returned 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}",
-  "recordedAt": "2026-08-11T11:08:09.206Z"
+  "error": "OpenAI API returned 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}",
+  "recordedAt": "2026-08-16T23:05:36.535Z"
 }
