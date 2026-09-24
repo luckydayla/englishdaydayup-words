@@ -1,0 +1,21 @@
+{
+  "id": "words-1787016905628-73915eb9",
+  "date": "2026-08-18",
+  "label": "Capture It intake",
+  "sourceId": "words-1787016905628-73915eb9",
+  "words": [
+    {"term":"out of whack","meaning":"Informal: not working properly, not aligned, or out of balance.","pattern":"be / get out of whack · throw something out of whack","cue":"the system is no longer in balance","example":"A promotion spike threw the replenishment plan out of whack.","type":"Informal expression"},
+    {"term":"sweltering","meaning":"Uncomfortably hot.","pattern":"sweltering heat / conditions · a sweltering day","cue":"heat that makes you suffer","example":"Teams rotated more often in the sweltering warehouse.","type":"Adjective"},
+    {"term":"sizzling","meaning":"Extremely hot; informally, also very exciting or impressive.","pattern":"sizzling heat · a sizzling performance / pace","cue":"so hot it seems to hiss","example":"The category delivered sizzling growth during the summer campaign.","type":"Adjective"},
+    {"term":"scorching","meaning":"Extremely hot or burning; also sharply severe in tone.","pattern":"scorching heat · a scorching day · scorching criticism","cue":"heat that feels as if it could burn","example":"Drivers were given extra breaks during the scorching afternoon.","type":"Adjective"},
+    {"term":"go off the beaten track","meaning":"Visit less-travelled places or depart from the usual way of doing something.","pattern":"go off the beaten track · well off the beaten track","cue":"leave the familiar main route","example":"The innovation team went off the beaten track to study small independent retailers.","type":"Idiomatic expression"}
+  ],
+  "questions": [
+    {"prompt":"The unexpected promotion threw the replenishment plan ________.","answer":"out of whack","accepted":["out of whack"],"note":"Out of whack is informal and means misaligned or not working properly."},
+    {"prompt":"Use the adjective for oppressively hot conditions: a ________ warehouse.","answer":"sweltering","accepted":["sweltering"],"note":"Sweltering emphasizes the discomfort people feel in intense heat."},
+    {"prompt":"Which adjective can describe both extreme heat and an exciting performance?","answer":"sizzling","accepted":["sizzling"],"note":"Sizzling can be literal or approving and figurative."},
+    {"prompt":"Complete the collocation: ________ heat forced the drivers to take extra breaks.","answer":"scorching","accepted":["scorching"],"note":"Scorching suggests heat intense enough to feel burning."},
+    {"prompt":"Complete the idiom: The research team went off the ________ track.","answer":"beaten","accepted":["beaten"],"note":"Go off the beaten track means leave familiar routes or conventional approaches."}
+  ],
+  "story": {"title":"Beyond the usual route","cues":["Heat","Disruption","Discovery"],"highlights":["out of whack","sweltering","sizzling","scorching","go off the beaten track"],"paragraphs":["A week of scorching weather pushed demand for cold drinks to a sizzling pace and threw the replenishment plan out of whack. In the sweltering warehouse, Maya added breaks and moved the heaviest work to cooler hours.","To find overlooked stock, the team went off the beaten track, visiting small distributors outside its normal network. The detour restored supply without compromising safety."]}
+}

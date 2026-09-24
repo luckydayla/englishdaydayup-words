@@ -1,0 +1,9 @@
+{
+  "id": "2026-08-11-652600",
+  "date": "2026-08-11",
+  "label": "iPhone intake",
+  "sourceId": "2026-08-11-652600",
+  "words": [{"term":"orthodontist","meaning":"A dental specialist who corrects the position of teeth and jaws.","pattern":"see / consult an orthodontist · orthodontic treatment","cue":"the specialist who straightens teeth","example":"The benefits plan now covers an initial consultation with an orthodontist.","type":"Noun"}],
+  "questions": [{"prompt":"Which dental specialist corrects the position of teeth and jaws?","answer":"orthodontist","accepted":["orthodontist"],"note":"Orthodontist is the specialist; orthodontic is the adjective."}],
+  "story": {"title":"A practical benefit","cues":["Benefits","Referral","Treatment"],"highlights":["orthodontist"],"paragraphs":["When an employee asked whether the new health plan covered braces, HR clarified that it included an initial appointment with an orthodontist.","That precise answer turned an abstract benefits policy into something the employee could actually use."]}
+}

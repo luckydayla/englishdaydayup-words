@@ -1,0 +1,23 @@
+{
+  "id": "2026-08-17-160686",
+  "date": "2026-08-17",
+  "label": "iPhone intake",
+  "sourceId": "2026-08-17-160686",
+  "words": [
+    {"term":"ballot","meaning":"A system or paper used to record a secret vote.","pattern":"hold a ballot · cast a ballot · secret ballot","cue":"a formal secret vote","example":"Employees chose their representatives by secret ballot.","type":"Noun"},
+    {"term":"makeshift","meaning":"Temporary and improvised because nothing better is available.","pattern":"a makeshift office / shelter / solution","cue":"usable for now, but not permanent","example":"The team ran the control room from a makeshift office after the flood.","type":"Adjective"},
+    {"term":"shatter someone’s dreams","meaning":"Destroy someone’s hopes suddenly and completely.","pattern":"shatter someone’s dreams / hopes","cue":"break a cherished hope like glass","example":"Closing the graduate scheme without warning would shatter many applicants’ dreams.","type":"Expression"},
+    {"term":"divisive","meaning":"Likely to cause strong disagreement or split people into opposing groups.","pattern":"a divisive issue / figure / policy · deeply divisive","cue":"it divides people into camps","example":"The proposed site closure became a deeply divisive issue.","type":"Adjective"},
+    {"term":"lose sleep over something","meaning":"Worry so much about something that it disturbs your peace of mind.","pattern":"lose sleep over + noun · not lose any sleep over","cue":"worry about it at night","example":"I would lose sleep over a safety risk, but not over a minor formatting error.","type":"Idiomatic expression"},
+    {"term":"sleep through something","meaning":"Remain asleep while an event or noise is happening.","pattern":"sleep through the alarm / storm / noise","cue":"the event happens, but you stay asleep","example":"He slept through the overnight system alert and missed the escalation.","type":"Phrasal verb"}
+  ],
+  "questions": [
+    {"prompt":"Employees selected their representatives by secret ________.","answer":"ballot","accepted":["ballot"],"note":"A ballot is a formal voting process or the paper used to vote."},
+    {"prompt":"After the flood, the team worked from a temporary, improvised office. Use one adjective.","answer":"makeshift","accepted":["makeshift"],"note":"Makeshift describes something temporary and improvised."},
+    {"prompt":"Complete the expression: Cancelling the programme would ________ many graduates’ dreams.","answer":"shatter","accepted":["shatter"],"note":"Shatter someone’s dreams is emotionally strong: destroy their hopes completely."},
+    {"prompt":"The proposed restructuring split the workforce into opposing camps; it was deeply ________.","answer":"divisive","accepted":["divisive"],"note":"Divisive means likely to cause serious disagreement."},
+    {"prompt":"Complete the idiom: I wouldn’t ________ sleep over one critical comment.","answer":"lose","accepted":["lose"],"note":"Lose sleep over something means worry greatly about it."},
+    {"prompt":"He did not hear the alarm because he ________ through it.","answer":"slept","accepted":["slept"],"note":"Sleep through something means remain asleep while it happens."}
+  ],
+  "story": {"title":"The night before the ballot","cues":["Temporary room","Disagreement","Perspective"],"highlights":["ballot","makeshift","shatter someone’s dreams","divisive","lose sleep over something","sleep through something"],"paragraphs":["The night before the employee ballot, the committee met in a makeshift office beside the factory gate. The proposed restructuring was divisive, and one representative warned that careless communication could shatter people’s dreams.","Maya said she would lose sleep over any hidden safety risk, but not over honest disagreement. Ironically, after working past midnight, she slept through her first alarm and arrived just as the ballot opened."]}
+}

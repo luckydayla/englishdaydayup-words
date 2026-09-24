@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-23-direct",
+  "date": "2026-09-23",
+  "label": "Set 01",
+  "words": [
+    {"term":"damning","meaning":"Providing strong evidence that someone or something is guilty, wrong, or seriously flawed.","pattern":"damning evidence / report / criticism / assessment","cue":"evidence that is very hard to defend against","example":"The audit contained a damning assessment of the control environment.","type":"Adjective"},
+    {"term":"hyper-vigilant","meaning":"Excessively alert to possible danger or problems, often because of prolonged stress.","pattern":"become / remain hyper-vigilant · hyper-vigilant about threats","cue":"always scanning for danger","example":"After the cyberattack, managers became hyper-vigilant about unusual access requests.","type":"Adjective"},
+    {"term":"clash","meaning":"Disagree strongly, come into conflict, or be incompatible.","pattern":"clash with someone · clash over something","cue":"two sides collide","example":"The commercial and operations teams clashed over the launch date.","type":"Verb"},
+    {"term":"forge","meaning":"Build or create something strong and durable through sustained effort.","pattern":"forge an alliance / relationship / path","cue":"shape something strong through effort","example":"The crisis helped the two functions forge a stronger partnership.","type":"Verb"},
+    {"term":"dead set against","meaning":"Informal: completely and firmly opposed to something.","pattern":"be dead set against + noun / -ing","cue":"absolutely opposed","example":"Several directors were dead set against launching before the safety review.","type":"Informal expression"},
+    {"term":"set out","meaning":"Begin a journey; state something clearly; or start with the intention of achieving something.","pattern":"set out for + place · set out a plan · set out to do something","cue":"begin, explain, or intend","example":"The memo sets out how the company will restore service levels.","type":"Phrasal verb"},
+    {"term":"set somebody off","meaning":"Trigger a strong reaction in someone, such as laughter, anger, crying, or anxiety.","pattern":"set someone off · set someone off laughing / crying","cue":"press an emotional trigger","example":"A dismissive comment set the union representative off again.","type":"Phrasal verb"},
+    {"term":"chores","meaning":"Routine tasks that must be done, especially household or minor administrative work.","pattern":"household / daily / administrative chores · do the chores","cue":"small routine jobs","example":"Automation removed several administrative chores from the planners’ day.","type":"Plural noun"},
+    {"term":"swelter","meaning":"Suffer from uncomfortably intense heat.","pattern":"swelter in / under + heat · be sweltering","cue":"suffer in oppressive heat","example":"Warehouse employees should not have to swelter while cooling repairs are delayed.","type":"Verb"}
+  ],
+  "questions": [
+    {"prompt":"The investigation produced ________ evidence of repeated control failures.","answer":"damning","accepted":["damning"],"note":"Damning evidence strongly indicates guilt or serious failure."},
+    {"prompt":"After the incident, managers were excessively alert to every small warning sign. They had become ________.","answer":"hyper-vigilant","accepted":["hyper-vigilant","hypervigilant"],"note":"Hyper-vigilant means excessively watchful for danger; hypervigilant is also common."},
+    {"prompt":"The commercial and operations teams ________ over the launch date.","answer":"clashed","accepted":["clashed"],"note":"Clash with a person; clash over an issue."},
+    {"prompt":"The crisis helped the two teams ________ a stronger alliance.","answer":"forge","accepted":["forge"],"note":"Forge suggests creating something strong through effort."},
+    {"prompt":"Complete the expression: The board was dead set ________ an early launch.","answer":"against","accepted":["against"],"note":"Be dead set against means be firmly opposed."},
+    {"prompt":"The memo ________ out the recovery plan in three phases.","answer":"sets","accepted":["sets"],"note":"Set out can mean explain or present clearly."},
+    {"prompt":"His dismissive remark ________ her off again.","answer":"set","accepted":["set"],"note":"Set someone off means trigger a strong reaction."},
+    {"prompt":"Automation removed several routine administrative ________.","answer":"chores","accepted":["chores"],"note":"Chores are small routine tasks that must be done."},
+    {"prompt":"Employees should not have to ________ in an overheated warehouse.","answer":"swelter","accepted":["swelter"],"note":"Swelter is the verb; sweltering is commonly the adjective."}
+  ],
+  "story": {"title":"Repairing trust after the audit","cues":["Evidence","Conflict","Plan","Action"],"highlights":["damning","hyper-vigilant","clash","forge","dead set against","set out","set somebody off","chores","swelter"],"paragraphs":["A damning audit made the leadership team hyper-vigilant. Operations and finance clashed over accountability, and two directors were dead set against announcing another deadline.","Maya set out a recovery plan that automated routine chores and fixed the cooling system so employees would no longer swelter. One careless remark set a union representative off, but Maya listened, corrected the record, and used the difficult meeting to forge a more honest partnership."]}
+}
