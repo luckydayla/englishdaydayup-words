@@ -1,0 +1,887 @@
+[
+  {
+    "id": "2026-08-11-652600",
+    "date": "2026-08-11",
+    "label": "iPhone intake",
+    "sourceId": "2026-08-11-652600",
+    "words": [
+      {
+        "term": "orthodontist",
+        "meaning": "A dental specialist who corrects the position of teeth and jaws.",
+        "pattern": "see / consult an orthodontist · orthodontic treatment",
+        "cue": "the specialist who straightens teeth",
+        "example": "The benefits plan now covers an initial consultation with an orthodontist.",
+        "type": "Noun"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Which dental specialist corrects the position of teeth and jaws?",
+        "answer": "orthodontist",
+        "accepted": [
+          "orthodontist"
+        ],
+        "note": "Orthodontist is the specialist; orthodontic is the adjective."
+      }
+    ],
+    "story": {
+      "title": "A practical benefit",
+      "cues": [
+        "Benefits",
+        "Referral",
+        "Treatment"
+      ],
+      "highlights": [
+        "orthodontist"
+      ],
+      "paragraphs": [
+        "When an employee asked whether the new health plan covered braces, HR clarified that it included an initial appointment with an orthodontist.",
+        "That precise answer turned an abstract benefits policy into something the employee could actually use."
+      ]
+    }
+  },
+  {
+    "id": "2026-08-17-160686",
+    "date": "2026-08-17",
+    "label": "iPhone intake",
+    "sourceId": "2026-08-17-160686",
+    "words": [
+      {
+        "term": "ballot",
+        "meaning": "A system or paper used to record a secret vote.",
+        "pattern": "hold a ballot · cast a ballot · secret ballot",
+        "cue": "a formal secret vote",
+        "example": "Employees chose their representatives by secret ballot.",
+        "type": "Noun"
+      },
+      {
+        "term": "makeshift",
+        "meaning": "Temporary and improvised because nothing better is available.",
+        "pattern": "a makeshift office / shelter / solution",
+        "cue": "usable for now, but not permanent",
+        "example": "The team ran the control room from a makeshift office after the flood.",
+        "type": "Adjective"
+      },
+      {
+        "term": "shatter someone’s dreams",
+        "meaning": "Destroy someone’s hopes suddenly and completely.",
+        "pattern": "shatter someone’s dreams / hopes",
+        "cue": "break a cherished hope like glass",
+        "example": "Closing the graduate scheme without warning would shatter many applicants’ dreams.",
+        "type": "Expression"
+      },
+      {
+        "term": "divisive",
+        "meaning": "Likely to cause strong disagreement or split people into opposing groups.",
+        "pattern": "a divisive issue / figure / policy · deeply divisive",
+        "cue": "it divides people into camps",
+        "example": "The proposed site closure became a deeply divisive issue.",
+        "type": "Adjective"
+      },
+      {
+        "term": "lose sleep over something",
+        "meaning": "Worry so much about something that it disturbs your peace of mind.",
+        "pattern": "lose sleep over + noun · not lose any sleep over",
+        "cue": "worry about it at night",
+        "example": "I would lose sleep over a safety risk, but not over a minor formatting error.",
+        "type": "Idiomatic expression"
+      },
+      {
+        "term": "sleep through something",
+        "meaning": "Remain asleep while an event or noise is happening.",
+        "pattern": "sleep through the alarm / storm / noise",
+        "cue": "the event happens, but you stay asleep",
+        "example": "He slept through the overnight system alert and missed the escalation.",
+        "type": "Phrasal verb"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Employees selected their representatives by secret ________.",
+        "answer": "ballot",
+        "accepted": [
+          "ballot"
+        ],
+        "note": "A ballot is a formal voting process or the paper used to vote."
+      },
+      {
+        "prompt": "After the flood, the team worked from a temporary, improvised office. Use one adjective.",
+        "answer": "makeshift",
+        "accepted": [
+          "makeshift"
+        ],
+        "note": "Makeshift describes something temporary and improvised."
+      },
+      {
+        "prompt": "Complete the expression: Cancelling the programme would ________ many graduates’ dreams.",
+        "answer": "shatter",
+        "accepted": [
+          "shatter"
+        ],
+        "note": "Shatter someone’s dreams is emotionally strong: destroy their hopes completely."
+      },
+      {
+        "prompt": "The proposed restructuring split the workforce into opposing camps; it was deeply ________.",
+        "answer": "divisive",
+        "accepted": [
+          "divisive"
+        ],
+        "note": "Divisive means likely to cause serious disagreement."
+      },
+      {
+        "prompt": "Complete the idiom: I wouldn’t ________ sleep over one critical comment.",
+        "answer": "lose",
+        "accepted": [
+          "lose"
+        ],
+        "note": "Lose sleep over something means worry greatly about it."
+      },
+      {
+        "prompt": "He did not hear the alarm because he ________ through it.",
+        "answer": "slept",
+        "accepted": [
+          "slept"
+        ],
+        "note": "Sleep through something means remain asleep while it happens."
+      }
+    ],
+    "story": {
+      "title": "The night before the ballot",
+      "cues": [
+        "Temporary room",
+        "Disagreement",
+        "Perspective"
+      ],
+      "highlights": [
+        "ballot",
+        "makeshift",
+        "shatter someone’s dreams",
+        "divisive",
+        "lose sleep over something",
+        "sleep through something"
+      ],
+      "paragraphs": [
+        "The night before the employee ballot, the committee met in a makeshift office beside the factory gate. The proposed restructuring was divisive, and one representative warned that careless communication could shatter people’s dreams.",
+        "Maya said she would lose sleep over any hidden safety risk, but not over honest disagreement. Ironically, after working past midnight, she slept through her first alarm and arrived just as the ballot opened."
+      ]
+    }
+  },
+  {
+    "id": "2026-09-23-direct",
+    "date": "2026-09-23",
+    "label": "Set 01",
+    "words": [
+      {
+        "term": "damning",
+        "meaning": "Providing strong evidence that someone or something is guilty, wrong, or seriously flawed.",
+        "pattern": "damning evidence / report / criticism / assessment",
+        "cue": "evidence that is very hard to defend against",
+        "example": "The audit contained a damning assessment of the control environment.",
+        "type": "Adjective"
+      },
+      {
+        "term": "hyper-vigilant",
+        "meaning": "Excessively alert to possible danger or problems, often because of prolonged stress.",
+        "pattern": "become / remain hyper-vigilant · hyper-vigilant about threats",
+        "cue": "always scanning for danger",
+        "example": "After the cyberattack, managers became hyper-vigilant about unusual access requests.",
+        "type": "Adjective"
+      },
+      {
+        "term": "clash",
+        "meaning": "Disagree strongly, come into conflict, or be incompatible.",
+        "pattern": "clash with someone · clash over something",
+        "cue": "two sides collide",
+        "example": "The commercial and operations teams clashed over the launch date.",
+        "type": "Verb"
+      },
+      {
+        "term": "forge",
+        "meaning": "Build or create something strong and durable through sustained effort.",
+        "pattern": "forge an alliance / relationship / path",
+        "cue": "shape something strong through effort",
+        "example": "The crisis helped the two functions forge a stronger partnership.",
+        "type": "Verb"
+      },
+      {
+        "term": "dead set against",
+        "meaning": "Informal: completely and firmly opposed to something.",
+        "pattern": "be dead set against + noun / -ing",
+        "cue": "absolutely opposed",
+        "example": "Several directors were dead set against launching before the safety review.",
+        "type": "Informal expression"
+      },
+      {
+        "term": "set out",
+        "meaning": "Begin a journey; state something clearly; or start with the intention of achieving something.",
+        "pattern": "set out for + place · set out a plan · set out to do something",
+        "cue": "begin, explain, or intend",
+        "example": "The memo sets out how the company will restore service levels.",
+        "type": "Phrasal verb"
+      },
+      {
+        "term": "set somebody off",
+        "meaning": "Trigger a strong reaction in someone, such as laughter, anger, crying, or anxiety.",
+        "pattern": "set someone off · set someone off laughing / crying",
+        "cue": "press an emotional trigger",
+        "example": "A dismissive comment set the union representative off again.",
+        "type": "Phrasal verb"
+      },
+      {
+        "term": "chores",
+        "meaning": "Routine tasks that must be done, especially household or minor administrative work.",
+        "pattern": "household / daily / administrative chores · do the chores",
+        "cue": "small routine jobs",
+        "example": "Automation removed several administrative chores from the planners’ day.",
+        "type": "Plural noun"
+      },
+      {
+        "term": "swelter",
+        "meaning": "Suffer from uncomfortably intense heat.",
+        "pattern": "swelter in / under + heat · be sweltering",
+        "cue": "suffer in oppressive heat",
+        "example": "Warehouse employees should not have to swelter while cooling repairs are delayed.",
+        "type": "Verb"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "The investigation produced ________ evidence of repeated control failures.",
+        "answer": "damning",
+        "accepted": [
+          "damning"
+        ],
+        "note": "Damning evidence strongly indicates guilt or serious failure."
+      },
+      {
+        "prompt": "After the incident, managers were excessively alert to every small warning sign. They had become ________.",
+        "answer": "hyper-vigilant",
+        "accepted": [
+          "hyper-vigilant",
+          "hypervigilant"
+        ],
+        "note": "Hyper-vigilant means excessively watchful for danger; hypervigilant is also common."
+      },
+      {
+        "prompt": "The commercial and operations teams ________ over the launch date.",
+        "answer": "clashed",
+        "accepted": [
+          "clashed"
+        ],
+        "note": "Clash with a person; clash over an issue."
+      },
+      {
+        "prompt": "The crisis helped the two teams ________ a stronger alliance.",
+        "answer": "forge",
+        "accepted": [
+          "forge"
+        ],
+        "note": "Forge suggests creating something strong through effort."
+      },
+      {
+        "prompt": "Complete the expression: The board was dead set ________ an early launch.",
+        "answer": "against",
+        "accepted": [
+          "against"
+        ],
+        "note": "Be dead set against means be firmly opposed."
+      },
+      {
+        "prompt": "The memo ________ out the recovery plan in three phases.",
+        "answer": "sets",
+        "accepted": [
+          "sets"
+        ],
+        "note": "Set out can mean explain or present clearly."
+      },
+      {
+        "prompt": "His dismissive remark ________ her off again.",
+        "answer": "set",
+        "accepted": [
+          "set"
+        ],
+        "note": "Set someone off means trigger a strong reaction."
+      },
+      {
+        "prompt": "Automation removed several routine administrative ________.",
+        "answer": "chores",
+        "accepted": [
+          "chores"
+        ],
+        "note": "Chores are small routine tasks that must be done."
+      },
+      {
+        "prompt": "Employees should not have to ________ in an overheated warehouse.",
+        "answer": "swelter",
+        "accepted": [
+          "swelter"
+        ],
+        "note": "Swelter is the verb; sweltering is commonly the adjective."
+      }
+    ],
+    "story": {
+      "title": "Repairing trust after the audit",
+      "cues": [
+        "Evidence",
+        "Conflict",
+        "Plan",
+        "Action"
+      ],
+      "highlights": [
+        "damning",
+        "hyper-vigilant",
+        "clash",
+        "forge",
+        "dead set against",
+        "set out",
+        "set somebody off",
+        "chores",
+        "swelter"
+      ],
+      "paragraphs": [
+        "A damning audit made the leadership team hyper-vigilant. Operations and finance clashed over accountability, and two directors were dead set against announcing another deadline.",
+        "Maya set out a recovery plan that automated routine chores and fixed the cooling system so employees would no longer swelter. One careless remark set a union representative off, but Maya listened, corrected the record, and used the difficult meeting to forge a more honest partnership."
+      ]
+    }
+  },
+  {
+    "id": "2026-09-30-direct",
+    "date": "2026-09-30",
+    "label": "Set 01",
+    "words": [
+      {
+        "term": "sparrow",
+        "meaning": "A small, common brown or grey songbird, often found near people.",
+        "pattern": "a flock of sparrows · a house sparrow",
+        "cue": "a small familiar bird",
+        "example": "The biodiversity survey recorded sparrows nesting near the distribution centre.",
+        "type": "Noun"
+      },
+      {
+        "term": "vellichor",
+        "meaning": "A coined literary word for the strange wistfulness or atmosphere of second-hand bookshops.",
+        "pattern": "feel / evoke vellichor · a sense of vellichor",
+        "cue": "wistfulness among old books",
+        "example": "The heritage brand used the vellichor of an old archive to give its campaign emotional depth.",
+        "type": "Literary neologism"
+      },
+      {
+        "term": "nidor",
+        "meaning": "A rare word for the strong, unpleasant smell of cooking or burning animal products; more broadly, an offensive smell.",
+        "pattern": "the nidor of burning fat · a lingering nidor",
+        "cue": "an acrid smell from burning food",
+        "example": "The plant investigated a persistent nidor near the rendering area before neighbours complained.",
+        "type": "Rare noun"
+      },
+      {
+        "term": "indigenous",
+        "meaning": "Originating naturally in a place; when referring to peoples, belonging to the original inhabitants of a region.",
+        "pattern": "indigenous to a region · Indigenous peoples / communities / knowledge",
+        "cue": "native to a place",
+        "example": "The project team consulted Indigenous communities before changing land-use plans.",
+        "type": "Adjective"
+      },
+      {
+        "term": "sacred",
+        "meaning": "Regarded as holy, spiritually important, or too important to be changed or violated.",
+        "pattern": "sacred land / ritual / trust · hold something sacred",
+        "cue": "worthy of profound respect",
+        "example": "Customer trust should be treated as sacred during a product recall.",
+        "type": "Adjective"
+      },
+      {
+        "term": "millennial",
+        "meaning": "A person born approximately between the early 1980s and mid-1990s; also an adjective relating to that generation.",
+        "pattern": "a millennial consumer · millennials in the workforce",
+        "cue": "a member of the generation before Gen Z",
+        "example": "The research compared millennial consumers with Gen Z shoppers rather than treating younger adults as one group.",
+        "type": "Noun and adjective"
+      },
+      {
+        "term": "cathartic",
+        "meaning": "Providing emotional relief by allowing strong or suppressed feelings to be expressed.",
+        "pattern": "a cathartic experience / conversation / moment",
+        "cue": "emotion released, relief follows",
+        "example": "The listening session was cathartic for employees who had felt ignored during the restructuring.",
+        "type": "Adjective"
+      },
+      {
+        "term": "cathartic release",
+        "meaning": "A strong sense of emotional relief produced by expressing or confronting pent-up feelings.",
+        "pattern": "provide / experience / bring a cathartic release",
+        "cue": "pent-up emotion finally escapes",
+        "example": "The facilitated discussion provided a cathartic release, but leaders still needed to address the underlying issues.",
+        "type": "Collocation"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Which small, familiar songbird is often seen near houses and city streets?",
+        "answer": "sparrow",
+        "accepted": [
+          "sparrow"
+        ],
+        "note": "A sparrow is a small songbird; sparrows is the regular plural."
+      },
+      {
+        "prompt": "Which coined literary word describes the wistful atmosphere of a second-hand bookshop?",
+        "answer": "vellichor",
+        "accepted": [
+          "vellichor"
+        ],
+        "note": "Vellichor is an evocative modern coinage, not standard everyday vocabulary."
+      },
+      {
+        "prompt": "The burning animal fat produced a lingering, unpleasant ________.",
+        "answer": "nidor",
+        "accepted": [
+          "nidor"
+        ],
+        "note": "Nidor is rare and usually refers to the smell of cooking or burning animal matter."
+      },
+      {
+        "prompt": "Complete the pattern: This plant is ________ to eastern Australia.",
+        "answer": "indigenous",
+        "accepted": [
+          "indigenous"
+        ],
+        "note": "Indigenous to means originating naturally in a place."
+      },
+      {
+        "prompt": "The community considers the site spiritually important and inviolable. It is ________ land.",
+        "answer": "sacred",
+        "accepted": [
+          "sacred"
+        ],
+        "note": "Sacred can be religious or figurative, but always signals profound importance or respect."
+      },
+      {
+        "prompt": "Use the plural noun for members of the generation before Gen Z: ________.",
+        "answer": "millennials",
+        "accepted": [
+          "millennials"
+        ],
+        "note": "Millennial is singular or adjectival; millennials is the plural noun."
+      },
+      {
+        "prompt": "The honest conversation allowed employees to express pent-up feelings and was emotionally ________.",
+        "answer": "cathartic",
+        "accepted": [
+          "cathartic"
+        ],
+        "note": "Cathartic describes an experience that brings emotional relief through expression."
+      },
+      {
+        "prompt": "Complete the collocation: The farewell ceremony brought a cathartic ________.",
+        "answer": "release",
+        "accepted": [
+          "release",
+          "cathartic release"
+        ],
+        "note": "A cathartic release is emotional relief after pent-up feelings are expressed."
+      }
+    ],
+    "story": {
+      "title": "What the old site held",
+      "cues": [
+        "Place",
+        "Memory",
+        "Respect",
+        "Release"
+      ],
+      "highlights": [
+        "sparrow",
+        "vellichor",
+        "nidor",
+        "indigenous",
+        "sacred",
+        "millennial",
+        "cathartic",
+        "cathartic release"
+      ],
+      "paragraphs": [
+        "A millennial brand manager visited an old factory scheduled for redevelopment. Sparrows nested in the roof, while the archive room carried the vellichor of faded ledgers and cardboard boxes. Near the former canteen, a faint nidor of old cooking grease still lingered.",
+        "Local Indigenous representatives explained that part of the land was sacred and asked the company to preserve its story. The final community meeting was cathartic: people spoke openly about loss, memory, and renewal. That cathartic release did not settle every question, but it allowed the group to begin again with greater respect."
+      ]
+    }
+  },
+  {
+    "id": "capture-words-1786344241433-44d27f6c",
+    "intakeId": "words-1786344241433-44d27f6c",
+    "date": "2026-08-10",
+    "label": "Automatic · Capture It",
+    "source": "Capture It",
+    "status": "published",
+    "reviewDates": {
+      "day3": "2026-08-13",
+      "day5": "2026-08-15",
+      "day15": "2026-08-25"
+    },
+    "words": [
+      {
+        "term": "take the reins",
+        "meaning": "Assume control, responsibility, or leadership of a situation or organization.",
+        "pronunciation": "/teɪk ðə reɪnz/",
+        "type": "Idiomatic expression",
+        "register": "Neutral and natural in business",
+        "pattern": "take the reins of something; take over the reins from someone",
+        "cue": "grasp the reins → take control",
+        "example": "Maya took the reins of the recovery program when the transformation lost momentum.",
+        "businessExample": "Maya took the reins of the recovery program when the transformation lost momentum.",
+        "everydayExample": "After their parents retired, the children took the reins of the family business.",
+        "contrast": "Take the lead can mean becoming most active; take the reins more strongly suggests assuming control.",
+        "recallPrompt": "When should a leader take the reins rather than delegate?"
+      }
+    ],
+    "story": {
+      "title": "Taking control of the recovery",
+      "cues": [
+        "Drift",
+        "Ownership",
+        "Direction",
+        "Recovery"
+      ],
+      "paragraphs": [
+        "The regional transformation had lost momentum because decisions were spread across several committees.",
+        "The CEO asked Maya to take the reins. She clarified decision rights and gave every workstream one accountable owner."
+      ],
+      "highlights": [
+        "take the reins"
+      ]
+    },
+    "questions": [
+      {
+        "prompt": "When the program lost direction, Maya was asked to ________.",
+        "answer": "take the reins",
+        "accepted": [
+          "take the reins"
+        ],
+        "note": "The expression means assume control or responsibility."
+      },
+      {
+        "prompt": "Write one executive sentence using take the reins.",
+        "answer": "Answers vary",
+        "accepted": [
+          "answers vary"
+        ],
+        "note": "Use take the reins of something, or omit of when the context is clear."
+      }
+    ]
+  },
+  {
+    "id": "capture-words-1786357514765-aa095217",
+    "intakeId": "words-1786357514765-aa095217",
+    "date": "2026-08-10",
+    "label": "Automatic · Capture It",
+    "source": "Capture It",
+    "status": "published",
+    "reviewDates": {
+      "day3": "2026-08-13",
+      "day5": "2026-08-15",
+      "day15": "2026-08-25"
+    },
+    "words": [
+      {
+        "term": "plagiarize",
+        "meaning": "Use another person’s words, ideas, or work and present them as your own without proper acknowledgement.",
+        "pronunciation": "/ˈpleɪdʒəraɪz/",
+        "type": "Verb",
+        "register": "Neutral but serious",
+        "pattern": "plagiarize a passage or idea; plagiarize from someone",
+        "cue": "copy without credit",
+        "example": "Leaders must ensure AI-assisted reports do not plagiarize external research.",
+        "businessExample": "Leaders must ensure AI-assisted reports do not plagiarize external research.",
+        "everydayExample": "The student was penalized for plagiarizing several paragraphs.",
+        "contrast": "Copy is broad; plagiarize specifically involves missing or misleading attribution.",
+        "recallPrompt": "How should a company prevent AI-assisted plagiarism?"
+      },
+      {
+        "term": "rip-off",
+        "meaning": "Something grossly overpriced, or an imitation that unfairly copies another work or product.",
+        "pronunciation": "/ˈrɪp ɒf/",
+        "type": "Informal noun",
+        "register": "Informal and critical",
+        "pattern": "a complete rip-off; a rip-off of something",
+        "cue": "unfair price or obvious copy",
+        "example": "The campaign looked like a rip-off of a competitor’s concept.",
+        "businessExample": "The campaign looked like a rip-off of a competitor’s concept.",
+        "everydayExample": "Twenty dollars for water felt like a complete rip-off.",
+        "contrast": "Use overpriced or unauthorized imitation in formal writing.",
+        "recallPrompt": "When would rip-off be too confrontational in an executive discussion?"
+      }
+    ],
+    "story": {
+      "title": "The campaign that looked too familiar",
+      "cues": [
+        "Similarity",
+        "Attribution",
+        "Risk",
+        "Originality"
+      ],
+      "paragraphs": [
+        "Maya discovered that several campaign lines had been plagiarized from a competitor.",
+        "The creative director called the proposal a rip-off. The team stopped the release and rebuilt the concept around original consumer insight."
+      ],
+      "highlights": [
+        "plagiarized",
+        "rip-off"
+      ]
+    },
+    "questions": [
+      {
+        "prompt": "Writers must cite sources so they do not ________ another person’s work.",
+        "answer": "plagiarize",
+        "accepted": [
+          "plagiarize"
+        ],
+        "note": "Plagiarize involves using work without proper acknowledgement."
+      },
+      {
+        "prompt": "The product was an obvious ________ of a competitor’s design.",
+        "answer": "rip-off",
+        "accepted": [
+          "rip-off",
+          "ripoff"
+        ],
+        "note": "The countable noun is normally hyphenated."
+      }
+    ]
+  },
+  {
+    "id": "capture-words-1786358302729-566f20d0",
+    "intakeId": "words-1786358302729-566f20d0",
+    "date": "2026-08-10",
+    "label": "Automatic · Capture It",
+    "source": "Capture It",
+    "status": "published",
+    "reviewDates": {
+      "day3": "2026-08-13",
+      "day5": "2026-08-15",
+      "day15": "2026-08-25"
+    },
+    "words": [
+      {
+        "term": "damn",
+        "meaning": "An informal, potentially offensive word used to express anger, frustration, surprise, or strong emphasis.",
+        "pronunciation": "/dæm/",
+        "type": "Informal expression",
+        "register": "Informal and potentially offensive",
+        "pattern": "Damn!; a damn problem; not give a damn",
+        "cue": "strong emotion—use cautiously",
+        "example": "In an executive setting, use ‘extremely frustrating’ instead of ‘damn frustrating.’",
+        "businessExample": "In an executive setting, use ‘extremely frustrating’ instead of ‘damn frustrating.’",
+        "everydayExample": "Damn, I left my keys at home, she said quietly.",
+        "contrast": "Darn is a softer euphemism; extremely or deeply is safer professionally.",
+        "recallPrompt": "How can you express strong frustration without sounding aggressive?"
+      }
+    ],
+    "story": {
+      "title": "The word that changed the room",
+      "cues": [
+        "Frustration",
+        "Impact",
+        "Pause",
+        "Reframe"
+      ],
+      "paragraphs": [
+        "An executive called the recurring shortage a damn mess, making the team defensive.",
+        "Maya reframed it as a serious system failure and redirected the room from blame to action."
+      ],
+      "highlights": [
+        "damn"
+      ]
+    },
+    "questions": [
+      {
+        "prompt": "In informal speech, ‘I don’t give a ________’ means ‘I do not care at all.’",
+        "answer": "damn",
+        "accepted": [
+          "damn"
+        ],
+        "note": "This expression is informal and can sound rude."
+      },
+      {
+        "prompt": "Replace ‘This is damn frustrating’ with a professional alternative.",
+        "answer": "This is extremely frustrating.",
+        "accepted": [
+          "this is extremely frustrating",
+          "this is deeply frustrating",
+          "this is incredibly frustrating"
+        ],
+        "note": "Use a precise intensifier professionally."
+      }
+    ]
+  },
+  {
+    "id": "capture-words-1786446922236-c4302069",
+    "intakeId": "words-1786446922236-c4302069",
+    "date": "2026-08-11",
+    "label": "Automatic · Capture It",
+    "source": "Capture It",
+    "status": "published",
+    "reviewDates": {
+      "day3": "2026-08-14",
+      "day5": "2026-08-16",
+      "day15": "2026-08-26"
+    },
+    "words": [
+      {
+        "term": "rebarbative",
+        "meaning": "Unpleasant, irritating, or difficult to tolerate, especially because of someone’s manner, style, or character.",
+        "pronunciation": "/rɪˈbɑːbərətɪv/",
+        "type": "Adjective",
+        "register": "Formal, uncommon, and strongly negative",
+        "pattern": "a rebarbative manner, personality, or style; find someone rebarbative",
+        "cue": "so unpleasant that people pull away",
+        "example": "Although the consultant’s analysis was sound, his rebarbative manner alienated the leadership team.",
+        "businessExample": "Although the consultant’s analysis was sound, his rebarbative manner alienated the leadership team and weakened his influence.",
+        "everydayExample": "The novel’s narrator is deliberately rebarbative, but his hostility gradually reveals deep insecurity.",
+        "contrast": "Abrasive is more common and focuses on a harsh manner; rebarbative more broadly suggests an irritating or repellent manner, style, or character.",
+        "recallPrompt": "How can a technically capable leader lose influence through a rebarbative manner?"
+      }
+    ],
+    "story": {
+      "title": "Expertise without influence",
+      "cues": [
+        "Expertise",
+        "Aversion",
+        "Trust",
+        "Influence"
+      ],
+      "paragraphs": [
+        "The consultant arrived with a strong diagnosis, but his rebarbative manner quickly alienated the plant leaders.",
+        "Maya translated his recommendations into respectful, practical language and reminded him that influence depends not only on being right, but also on how people experience you."
+      ],
+      "highlights": [
+        "rebarbative"
+      ]
+    },
+    "questions": [
+      {
+        "prompt": "Although his analysis was strong, his ________ manner alienated the leadership team.",
+        "answer": "rebarbative",
+        "accepted": [
+          "rebarbative"
+        ],
+        "note": "Rebarbative is a formal adjective for a manner, style, or character that is irritating or repellent."
+      },
+      {
+        "prompt": "Use the formal adjective for someone whose unpleasant manner makes them difficult to tolerate.",
+        "answer": "rebarbative",
+        "accepted": [
+          "rebarbative"
+        ],
+        "note": "In ordinary conversation, abrasive is usually the more natural alternative."
+      }
+    ]
+  },
+  {
+    "id": "words-1787016905628-73915eb9",
+    "date": "2026-08-18",
+    "label": "Capture It intake",
+    "sourceId": "words-1787016905628-73915eb9",
+    "words": [
+      {
+        "term": "out of whack",
+        "meaning": "Informal: not working properly, not aligned, or out of balance.",
+        "pattern": "be / get out of whack · throw something out of whack",
+        "cue": "the system is no longer in balance",
+        "example": "A promotion spike threw the replenishment plan out of whack.",
+        "type": "Informal expression"
+      },
+      {
+        "term": "sweltering",
+        "meaning": "Uncomfortably hot.",
+        "pattern": "sweltering heat / conditions · a sweltering day",
+        "cue": "heat that makes you suffer",
+        "example": "Teams rotated more often in the sweltering warehouse.",
+        "type": "Adjective"
+      },
+      {
+        "term": "sizzling",
+        "meaning": "Extremely hot; informally, also very exciting or impressive.",
+        "pattern": "sizzling heat · a sizzling performance / pace",
+        "cue": "so hot it seems to hiss",
+        "example": "The category delivered sizzling growth during the summer campaign.",
+        "type": "Adjective"
+      },
+      {
+        "term": "scorching",
+        "meaning": "Extremely hot or burning; also sharply severe in tone.",
+        "pattern": "scorching heat · a scorching day · scorching criticism",
+        "cue": "heat that feels as if it could burn",
+        "example": "Drivers were given extra breaks during the scorching afternoon.",
+        "type": "Adjective"
+      },
+      {
+        "term": "go off the beaten track",
+        "meaning": "Visit less-travelled places or depart from the usual way of doing something.",
+        "pattern": "go off the beaten track · well off the beaten track",
+        "cue": "leave the familiar main route",
+        "example": "The innovation team went off the beaten track to study small independent retailers.",
+        "type": "Idiomatic expression"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "The unexpected promotion threw the replenishment plan ________.",
+        "answer": "out of whack",
+        "accepted": [
+          "out of whack"
+        ],
+        "note": "Out of whack is informal and means misaligned or not working properly."
+      },
+      {
+        "prompt": "Use the adjective for oppressively hot conditions: a ________ warehouse.",
+        "answer": "sweltering",
+        "accepted": [
+          "sweltering"
+        ],
+        "note": "Sweltering emphasizes the discomfort people feel in intense heat."
+      },
+      {
+        "prompt": "Which adjective can describe both extreme heat and an exciting performance?",
+        "answer": "sizzling",
+        "accepted": [
+          "sizzling"
+        ],
+        "note": "Sizzling can be literal or approving and figurative."
+      },
+      {
+        "prompt": "Complete the collocation: ________ heat forced the drivers to take extra breaks.",
+        "answer": "scorching",
+        "accepted": [
+          "scorching"
+        ],
+        "note": "Scorching suggests heat intense enough to feel burning."
+      },
+      {
+        "prompt": "Complete the idiom: The research team went off the ________ track.",
+        "answer": "beaten",
+        "accepted": [
+          "beaten"
+        ],
+        "note": "Go off the beaten track means leave familiar routes or conventional approaches."
+      }
+    ],
+    "story": {
+      "title": "Beyond the usual route",
+      "cues": [
+        "Heat",
+        "Disruption",
+        "Discovery"
+      ],
+      "highlights": [
+        "out of whack",
+        "sweltering",
+        "sizzling",
+        "scorching",
+        "go off the beaten track"
+      ],
+      "paragraphs": [
+        "A week of scorching weather pushed demand for cold drinks to a sizzling pace and threw the replenishment plan out of whack. In the sweltering warehouse, Maya added breaks and moved the heaviest work to cooler hours.",
+        "To find overlooked stock, the team went off the beaten track, visiting small distributors outside its normal network. The detour restored supply without compromising safety."
+      ]
+    }
+  }
+]
