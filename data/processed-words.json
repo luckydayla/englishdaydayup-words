@@ -883,5 +883,100 @@
         "To find overlooked stock, the team went off the beaten track, visiting small distributors outside its normal network. The detour restored supply without compromising safety."
       ]
     }
+  },
+  {
+    "id": "2026-10-01-direct",
+    "date": "2026-10-01",
+    "label": "Set 01",
+    "words": [
+      {
+        "term": "implicit",
+        "type": "Adjective",
+        "meaning": "Suggested or understood without being stated directly.",
+        "pattern": "implicit in something · implicit assumption / message / agreement",
+        "cue": "understood, but unspoken",
+        "example": "The forecast contained an implicit assumption that promotional demand would remain stable.",
+        "pronunciation": "/ɪmˈplɪsɪt/",
+        "register": "Neutral to formal",
+        "everydayExample": "Her silence carried an implicit warning: do not bring it up again.",
+        "usageNote": "Implicit contrasts with explicit. Implicit trust is a separate established sense meaning complete, unquestioning trust."
+      },
+      {
+        "term": "explicit",
+        "type": "Adjective",
+        "meaning": "Stated clearly and directly, leaving little room for doubt.",
+        "pattern": "explicit instructions / consent / commitment · be explicit about something",
+        "cue": "clearly stated",
+        "example": "The steering committee gave explicit instructions to stop the rollout if safety controls failed.",
+        "pronunciation": "/ɪkˈsplɪsɪt/",
+        "register": "Neutral to formal",
+        "everydayExample": "I was explicit about needing a quiet evening at home.",
+        "usageNote": "Explicit can also describe graphic sexual or violent content. Use context to make the intended sense clear."
+      },
+      {
+        "term": "spike",
+        "type": "Noun and verb",
+        "meaning": "A sudden, sharp rise in a quantity; to rise sharply, often briefly.",
+        "pattern": "a spike in demand / prices · demand spikes · spike to a level",
+        "cue": "a sharp peak on a chart",
+        "example": "Demand spiked after the campaign launched, creating a short-term capacity gap.",
+        "pronunciation": "/spaɪk/",
+        "register": "Neutral; common in business and data discussion",
+        "everydayExample": "My electricity bill spiked during the heatwave.",
+        "usageNote": "A spike usually suggests an abrupt peak; a surge can describe a broader or more sustained increase. Spike also has other senses, including a pointed object and secretly adding a substance to a drink."
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "The forecast assumed stable demand without stating it. It contained an ________ assumption.",
+        "answer": "implicit",
+        "accepted": [
+          "implicit"
+        ],
+        "note": "Implicit means understood or suggested without being directly stated."
+      },
+      {
+        "prompt": "Complete the sentence: The committee gave ________ instructions to stop the rollout if controls failed.",
+        "answer": "explicit",
+        "accepted": [
+          "explicit"
+        ],
+        "note": "Explicit instructions are clear and directly stated."
+      },
+      {
+        "prompt": "Demand rose sharply immediately after the campaign. Complete: Demand ________ after launch.",
+        "answer": "spiked",
+        "accepted": [
+          "spiked"
+        ],
+        "note": "Use spiked for a sudden sharp increase in the past."
+      },
+      {
+        "prompt": "Complete the noun pattern: There was a spike ________ demand.",
+        "answer": "in",
+        "accepted": [
+          "in"
+        ],
+        "note": "Use a spike in a quantity, such as demand, prices, or complaints."
+      }
+    ],
+    "story": {
+      "title": "The assumption behind the forecast",
+      "cues": [
+        "Assumption",
+        "Peak",
+        "Clarity"
+      ],
+      "highlights": [
+        "implicit",
+        "explicit",
+        "spike",
+        "spiked"
+      ],
+      "paragraphs": [
+        "The launch forecast carried an implicit assumption that retailers would order at their usual pace. When demand spiked after the campaign, the planning team discovered that the assumption had never been challenged.",
+        "Maya made the next decision explicit: protect service to existing customers before accepting additional promotional orders. The spike exposed a forecasting weakness, but it also taught the team to state its assumptions clearly."
+      ]
+    }
   }
 ]
