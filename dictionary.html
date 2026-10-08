@@ -43,8 +43,8 @@
 <body>
   <main>
     <header>
-      <div><p class="eyebrow">DDU · Master Index</p><h1>My vocabulary<br><em>dictionary.</em></h1></div>
-      <div class="count"><div><strong id="total">33</strong><span>visible entries</span></div></div>
+      <div><p class="eyebrow">English Day Day Up · Master Index</p><h1>My vocabulary<br><em>dictionary.</em></h1></div>
+      <div class="count"><div><strong id="total">44</strong><span>visible entries</span></div></div>
     </header>
 
     <section class="controls" aria-label="Dictionary controls">
@@ -57,36 +57,54 @@
     <section class="index-block"><p class="index-label">Index by category</p><nav class="categories" id="categories" aria-label="Filter by word category"></nav></section>
     <section id="entries" aria-live="polite"></section>
     <div class="empty" id="empty">No matching vocabulary entries.</div>
-    <footer><span>33 entries · Started 8 August 2026</span><span>Last updated 12 August 2026</span></footer>
+    <footer><span>52 entries · Started 8 August 2026</span><span>Last updated 9 October 2026</span></footer>
   </main>
   <script>
     const data=[
+      {"term":"appraise","pronunciation":"/əˈpreɪz/","type":"Verb","meaning":"Assess the quality, condition, performance, or value of someone or something carefully.","status":"New"},
+      {"term":"parsnip","pronunciation":"/ˈpɑːsnɪp/","type":"Noun","meaning":"A pale, tapered root vegetable, similar in shape to a carrot and often eaten cooked.","status":"New"},
+      {"term":"cuckold","pronunciation":"/ˈkʌkəʊld/","type":"Noun and verb","meaning":"Traditionally, a husband whose wife has been sexually unfaithful; as a verb, make a husband a cuckold by being unfaithful or having an affair with his wife.","status":"New"},
+      {"term":"rebuke","pronunciation":"/rɪˈbjuːk/","type":"Noun and verb","meaning":"Criticize someone sharply for something they have said or done; a sharp expression of disapproval.","status":"New"},
+      {term:"sanctuary",pronunciation:"/ˈsæŋktʃuəri/",type:"Noun",meaning:"A safe, peaceful place offering refuge; also a protected wildlife area or a holy place.",status:"New"},
+      {term:"testament",pronunciation:"/ˈtestəmənt/",type:"Noun",meaning:"Something that provides strong evidence of a quality or achievement; a testament to.",status:"New"},
+      {term:"urban oasis",pronunciation:"/ˈɜːbən əʊˈeɪsɪs/",type:"Noun phrase",meaning:"A calm, pleasant place offering relief within a busy city.",status:"New"},
+      {term:"cry your eyes out",pronunciation:"/kraɪ jər ˈaɪz aʊt/",type:"Idiomatic expression",meaning:"Cry intensely or for a long time; informal and emotionally vivid.",status:"New"},
       {term:"at face value",type:"Idiomatic expression",meaning:"Based only on how something first appears, without questioning whether it is complete or true.",status:"New"},
       {term:"belittle",type:"Verb",meaning:"Make someone or their achievements seem unimportant or inferior.",status:"New"},
       {term:"basket spend",type:"Noun phrase",meaning:"The amount a shopper spends in one transaction or shopping basket.",status:"New"},
       {term:"bat away",type:"Phrasal verb",meaning:"Deflect something physically or dismiss a question, concern, or criticism quickly.",status:"New"},
       {term:"boozer",type:"Informal noun",meaning:"In British informal English, a person who drinks heavily or a pub.",status:"New"},
       {term:"clash",type:"Verb",meaning:"Disagree strongly, come into conflict, or be incompatible.",status:"New"},
+      {term:"cathartic",type:"Adjective",meaning:"Providing emotional relief by allowing strong or suppressed feelings to be expressed.",status:"New"},
+      {term:"cathartic release",type:"Collocation",meaning:"Emotional relief produced by expressing or confronting pent-up feelings.",status:"New"},
       {term:"crack",type:"Verb",meaning:"Begin to fail, weaken, or lose emotional control under sustained pressure.",status:"New"},
       {term:"cut corners",type:"Idiomatic expression",meaning:"Save time, effort, or money by doing something less thoroughly, often compromising standards.",status:"New"},
       {term:"damn",type:"Informal expression",meaning:"Expresses anger, frustration, surprise, or strong emphasis; potentially offensive and best avoided in formal professional communication.",status:"New"},
       {term:"eavesdrop",type:"Verb",meaning:"Secretly listen to a private conversation without the speakers' knowledge or permission.",status:"New"},
+      {term:"explicit",type:"Adjective",meaning:"Clearly and directly stated, leaving little room for doubt.",status:"New"},
+      {term:"implicit",type:"Adjective",meaning:"Suggested or understood without being directly stated.",status:"New"},
+      {term:"spike",type:"Noun and verb",meaning:"A sudden sharp increase, often brief; to rise sharply.",status:"New"},
       {term:"forge",type:"Verb",meaning:"Build or create something strong and durable through sustained effort.",status:"New"},
       {term:"frazzled",type:"Adjective",meaning:"Mentally and emotionally exhausted because of stress or excessive demands.",status:"New"},
       {term:"get something off your plate",type:"Idiomatic expression",meaning:"Complete, remove, or delegate a responsibility so it no longer requires your attention.",status:"New"},
       {term:"get goose bumps",type:"Idiomatic expression",meaning:"Develop raised skin bumps because of cold, fear, excitement, or strong emotion.",status:"New"},
       {term:"impenetrable",type:"Adjective",meaning:"Extremely difficult or impossible to understand; also impossible to enter or pass through.",status:"New"},
+      {term:"indigenous",type:"Adjective",meaning:"Originating naturally in a place; when referring to peoples, belonging to the original inhabitants of a region.",status:"New"},
       {term:"intricate",type:"Adjective",meaning:"Containing many small, interconnected parts or details; complex but often carefully constructed.",status:"New"},
       {term:"jargon",type:"Noun",meaning:"Specialized language used by a profession or group that may be difficult for outsiders to understand.",status:"New"},
       {term:"knock back",type:"Phrasal verb",meaning:"Drink something, especially alcohol, quickly or in substantial quantities.",status:"New"},
       {term:"lose your cool",type:"Idiomatic expression",meaning:"Become angry, upset, or unable to remain calm.",status:"New"},
       {term:"mental shortcut",type:"Noun phrase",meaning:"A quick, simplified way of making a judgment or decision.",status:"New"},
+      {term:"millennial",type:"Noun and adjective",meaning:"A person born approximately between the early 1980s and mid-1990s; also relating to that generation.",status:"New"},
+      {term:"nidor",type:"Rare noun",meaning:"The strong unpleasant smell of cooking or burning animal products; more broadly, an offensive smell.",status:"New"},
       {term:"out drinking",type:"Informal expression",meaning:"Away from home socializing and drinking alcohol, usually in bars, pubs, or restaurants.",status:"New"},
       {term:"pick yourself up",type:"Phrasal expression",meaning:"Recover emotionally after a setback and continue.",status:"New"},
       {term:"plagiarize",type:"Verb",meaning:"Use another person’s words, ideas, or work and present them as your own without proper acknowledgement.",status:"New"},
       {term:"plummet",type:"Verb",meaning:"Fall or decrease suddenly and steeply.",status:"New"},
       {term:"put someone in their place",type:"Idiomatic expression",meaning:"Firmly correct someone who is behaving arrogantly or disrespectfully.",status:"New"},
       {term:"scramble",type:"Verb",meaning:"Act very quickly and somewhat chaotically in response to an urgent situation.",status:"New"},
+      {term:"sacred",type:"Adjective",meaning:"Regarded as holy, spiritually important, or too important to be violated.",status:"New"},
+      {term:"sparrow",type:"Noun",meaning:"A small, common brown or grey songbird often found near people.",status:"New"},
       {term:"stigma",type:"Noun",meaning:"A strong negative social judgment associated with a person, condition, or behavior.",status:"New"}
       ,{term:"squeaky",type:"Adjective",meaning:"Making a short, high-pitched sound; figuratively, conspicuously vocal about a problem.",status:"New"}
       ,{term:"rebarbative",type:"Adjective",meaning:"Unpleasant, irritating, or difficult to tolerate, especially because of someone’s manner, style, or character.",status:"New"}
@@ -94,12 +112,13 @@
       ,{term:"take the reins",type:"Idiomatic expression",meaning:"Assume control, responsibility, or leadership of a situation or organization.",status:"New"}
       ,{term:"underpin",type:"Verb",meaning:"Provide the essential support, evidence, or basis that makes something possible or credible.",status:"New"}
       ,{term:"walk a fine line",type:"Idiomatic expression",meaning:"Carefully balance between two competing demands or risks.",status:"New"}
+      ,{term:"vellichor",type:"Literary neologism",meaning:"A coined word for the strange wistfulness or atmosphere of second-hand bookshops.",status:"New"}
     ];
     let letter="all",category="all";
     const alphabet=document.querySelector("#alphabet");
     ["All",..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].forEach(label=>{const b=document.createElement("button");b.textContent=label==="All"?"ALL":label;b.dataset.letter=label.toLowerCase();if(label==="All")b.className="active has";if(data.some(x=>x.term[0].toUpperCase()===label))b.classList.add("has");b.onclick=()=>{letter=b.dataset.letter;document.querySelectorAll("#alphabet button").forEach(x=>x.classList.toggle("active",x===b));render()};alphabet.appendChild(b)});
     const categories=document.querySelector("#categories");["All",...new Set(data.map(item=>item.type).sort())].forEach(label=>{const b=document.createElement("button");b.textContent=label;b.dataset.category=label.toLowerCase();if(label==="All")b.className="active";b.onclick=()=>{category=b.dataset.category;document.querySelectorAll("#categories button").forEach(x=>x.classList.toggle("active",x===b));render()};categories.appendChild(b)});
-    function render(){const query=document.querySelector("#search").value.toLowerCase().trim();const status=document.querySelector("#status").value;const filtered=data.filter(x=>(!query||x.term.toLowerCase().includes(query)||x.meaning.toLowerCase().includes(query))&&(status==="all"||x.status===status)&&(letter==="all"||x.term[0].toLowerCase()===letter)&&(category==="all"||x.type.toLowerCase()===category));document.querySelector("#entries").innerHTML=filtered.map((x,i)=>`<article class="entry"><span class="number">${String(i+1).padStart(2,"0")}</span><span class="term">${x.term}</span><span class="meaning">${x.meaning}</span><span class="meta"><strong>${x.type}</strong></span><span class="status">${x.status}</span></article>`).join("");document.querySelector("#total").textContent=filtered.length;document.querySelector("#empty").style.display=filtered.length?"none":"block"}
+    function render(){const query=document.querySelector("#search").value.toLowerCase().trim();const status=document.querySelector("#status").value;const filtered=data.filter(x=>(!query||x.term.toLowerCase().includes(query)||x.meaning.toLowerCase().includes(query))&&(status==="all"||x.status===status)&&(letter==="all"||x.term[0].toLowerCase()===letter)&&(category==="all"||x.type.toLowerCase()===category));document.querySelector("#entries").innerHTML=filtered.map((x,i)=>`<article class="entry"><span class="number">${String(i+1).padStart(2,"0")}</span><span class="term">${x.term}${x.pronunciation?` <small>${x.pronunciation}</small>`:""}</span><span class="meaning">${x.meaning}</span><span class="meta"><strong>${x.type}</strong></span><span class="status">${x.status}</span></article>`).join("");document.querySelector("#total").textContent=filtered.length;document.querySelector("#empty").style.display=filtered.length?"none":"block"}
     document.querySelector("#search").addEventListener("input",render);document.querySelector("#status").addEventListener("change",render);render();
   </script>
 </body>

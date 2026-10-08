@@ -978,5 +978,271 @@
         "Maya made the next decision explicit: protect service to existing customers before accepting additional promotional orders. The spike exposed a forecasting weakness, but it also taught the team to state its assumptions clearly."
       ]
     }
+  },
+  {
+    "id": "2026-10-01-sanctuary",
+    "date": "2026-10-01",
+    "label": "Set 02",
+    "words": [
+      {
+        "term": "sanctuary",
+        "type": "Noun",
+        "meaning": "A safe, peaceful place offering refuge from danger, stress, or disturbance; also a protected place for wildlife or a holy place.",
+        "pronunciation": "/ˈsæŋktʃuəri/",
+        "register": "Neutral; often evocative or figurative",
+        "pattern": "a sanctuary from stress · find sanctuary in a place · a wildlife sanctuary",
+        "cue": "a place where you feel safe",
+        "example": "The quiet courtyard became a sanctuary for employees during the demanding transformation programme.",
+        "everydayExample": "After a noisy day, my garden is my sanctuary.",
+        "usageNote": "A sanctuary emphasizes safety or refuge; an oasis emphasizes welcome relief amid difficult surroundings. Use a sanctuary from stress, not a sanctuary of stress.",
+        "recallPrompt": "Describe a place that gives you sanctuary from pressure."
+      },
+      {
+        "term": "testament",
+        "type": "Noun",
+        "meaning": "Something that provides strong evidence of a quality, achievement, or fact, especially in the phrase a testament to.",
+        "pronunciation": "/ˈtestəmənt/",
+        "register": "Neutral to formal; common in praise and reflective writing",
+        "pattern": "a testament to someone's resilience / dedication / skill · stand as a testament to",
+        "cue": "visible proof of a quality",
+        "example": "The successful rollout is a testament to the team's persistence and cross-functional collaboration.",
+        "everydayExample": "Their forty-year friendship is a testament to their loyalty.",
+        "usageNote": "Use a testament to, not a testament of, for this sense. Testimony is a statement or evidence given by a person; testament here is something that demonstrates a quality. Other senses include a will and the Old or New Testament.",
+        "recallPrompt": "Name an achievement that is a testament to someone's persistence."
+      },
+      {
+        "term": "urban oasis",
+        "type": "Noun phrase",
+        "meaning": "A calm, pleasant place that offers relief from the noise, crowds, or pressure of a city.",
+        "pronunciation": "/ˈɜːbən əʊˈeɪsɪs/",
+        "register": "Descriptive; common in travel, property, and lifestyle writing",
+        "pattern": "an urban oasis · create an urban oasis · an urban oasis in the heart of the city",
+        "cue": "a pocket of calm in a busy city",
+        "example": "The company turned its city-centre rooftop into an urban oasis where employees could take a proper break.",
+        "everydayExample": "The little park behind the station is an urban oasis.",
+        "usageNote": "Use an, not a, before urban. Oasis is singular; oases is plural. The phrase is metaphorical, not limited to a desert or a water source. Stress the second syllable of oasis: oh-AY-sis.",
+        "recallPrompt": "Describe an urban oasis in a city you know."
+      },
+      {
+        "term": "cry your eyes out",
+        "type": "Idiomatic expression",
+        "meaning": "Cry intensely or for a long time, usually because you are deeply upset.",
+        "pronunciation": "/kraɪ jər ˈaɪz aʊt/",
+        "register": "Informal and emotionally vivid; avoid it in formal reports",
+        "pattern": "cry my / your / her / his / our / their eyes out · cried her eyes out",
+        "cue": "cry very hard",
+        "example": "After the factory closure, a colleague told me she had cried her eyes out at home; I listened without trying to minimize her loss.",
+        "everydayExample": "I cried my eyes out at the end of the film.",
+        "usageNote": "Change the possessive to match the person: she cried her eyes out. The past tense of cry is cried. It describes intense crying, not necessarily clinical distress or a positive cathartic release.",
+        "recallPrompt": "Tell a short story about someone who cried their eyes out, using the correct possessive."
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Complete with today's noun: My garden is a ________ from the pressures of work.",
+        "answer": "sanctuary",
+        "accepted": [
+          "sanctuary"
+        ],
+        "note": "A sanctuary offers safety or refuge. The pattern is a sanctuary from something."
+      },
+      {
+        "prompt": "The successful rollout demonstrates the team's persistence. Complete with today's noun: It is a ________ to their persistence.",
+        "answer": "testament",
+        "accepted": [
+          "testament"
+        ],
+        "note": "Use a testament to a quality or achievement."
+      },
+      {
+        "prompt": "Complete the preposition: Their lasting friendship is a testament ________ their loyalty.",
+        "answer": "to",
+        "accepted": [
+          "to"
+        ],
+        "note": "The established pattern is a testament to, not of."
+      },
+      {
+        "prompt": "Use today's two-word phrase: The peaceful city-centre park is an ________.",
+        "answer": "urban oasis",
+        "accepted": [
+          "urban oasis"
+        ],
+        "note": "An urban oasis offers calm and relief within a busy city."
+      },
+      {
+        "prompt": "Complete the article: The rooftop garden is ________ urban oasis.",
+        "answer": "an",
+        "accepted": [
+          "an"
+        ],
+        "note": "Urban begins with a vowel sound, so use an."
+      },
+      {
+        "prompt": "Use today's idiom in the past tense: The film upset me so much that I ________.",
+        "answer": "cried my eyes out",
+        "accepted": [
+          "cried my eyes out"
+        ],
+        "note": "Use cried for the past tense, and my because the subject is I."
+      },
+      {
+        "prompt": "Complete the possessive: When Lena heard the news, she cried ________ eyes out.",
+        "answer": "her",
+        "accepted": [
+          "her"
+        ],
+        "note": "The possessive agrees with the person who is crying."
+      }
+    ],
+    "story": {
+      "title": "A place to breathe",
+      "cues": [
+        "Change",
+        "Loss",
+        "Refuge",
+        "Care"
+      ],
+      "highlights": [
+        "sanctuary",
+        "testament",
+        "urban oasis",
+        "cried her eyes out"
+      ],
+      "paragraphs": [
+        "After an exhausting supply-chain transformation, Maya noticed that people had nowhere quiet to take a break. The team converted an unused courtyard at its city-centre office into an urban oasis, with trees, benches, and no meeting tables. It became a sanctuary from the constant noise and pressure.",
+        "One afternoon, Lena sat there with Maya and admitted that she had cried her eyes out the previous night. Her old factory was closing, and she missed the colleagues who had shaped her career. Maya listened instead of offering a quick motivational speech.",
+        "A month later, the courtyard was full of people talking, resting, or simply sitting quietly. To Maya, it was a testament to a simple leadership principle: helping people adapt to change also means giving them room to feel what they have lost."
+      ]
+    }
+  },
+  {
+    "id": "2026-10-09-direct",
+    "date": "2026-10-09",
+    "label": "Set 01",
+    "words": [
+      {
+        "term": "rebuke",
+        "pronunciation": "/rɪˈbjuːk/",
+        "type": "Noun and verb",
+        "register": "Formal; strong disapproval",
+        "meaning": "Criticize someone sharply for something they have said or done; a sharp expression of disapproval.",
+        "pattern": "rebuke someone for doing something · a sharp / stern rebuke",
+        "cue": "a strong verbal correction",
+        "example": "The chair rebuked the executive for dismissing a legitimate safety concern.",
+        "everydayExample": "She gave him a sharp rebuke for mocking her friend.",
+        "usageNote": "Rebuke is stronger than ordinary criticism. Reprimand often suggests an official disciplinary response. Use rebuke someone for, not rebuke someone about, as the main pattern.",
+        "recallPrompt": "Describe conduct that would deserve a firm rebuke from a leader."
+      },
+      {
+        "term": "cuckold",
+        "pronunciation": "/ˈkʌkəʊld/",
+        "type": "Noun and verb",
+        "register": "Old-fashioned or literary; derogatory when used about a person",
+        "meaning": "Traditionally, a husband whose wife has been sexually unfaithful; as a verb, make a husband a cuckold by being unfaithful or having an affair with his wife.",
+        "pattern": "a cuckold · be cuckolded",
+        "cue": "a literary term for a betrayed husband",
+        "example": "In workplace conduct training, the facilitator explained why calling a colleague a cuckold would be a personal insult, not professional feedback.",
+        "everydayExample": "In the play, the husband fears being made a cuckold.",
+        "usageNote": "Learn it primarily for reading and cultural understanding, not as a label to use about people. It can be insulting; contemporary sexual contexts may use it differently. Unfaithful spouse is clearer and less loaded in neutral conversation.",
+        "recallPrompt": "Explain the traditional meaning without using it to insult anyone."
+      },
+      {
+        "term": "parsnip",
+        "pronunciation": "/ˈpɑːsnɪp/",
+        "type": "Noun",
+        "register": "Neutral; food vocabulary",
+        "meaning": "A pale, tapered root vegetable, similar in shape to a carrot and often eaten cooked.",
+        "pattern": "roasted parsnips · parsnip soup · peel a parsnip",
+        "cue": "the pale root beside the carrots",
+        "example": "The supplier's specification required each parsnip to meet the agreed size and quality standards.",
+        "everydayExample": "I roasted carrots and parsnips for dinner.",
+        "usageNote": "A parsnip is not a turnip: parsnips are generally tapered, whereas turnips are usually rounder. The regular plural is parsnips.",
+        "recallPrompt": "Describe how you would prepare parsnips for a meal."
+      },
+      {
+        "term": "appraise",
+        "pronunciation": "/əˈpreɪz/",
+        "type": "Verb",
+        "register": "Neutral to formal; assessment and valuation",
+        "meaning": "Assess the quality, condition, performance, or value of someone or something carefully.",
+        "pattern": "appraise a proposal / performance / property · appraise something at a value",
+        "cue": "assess it carefully",
+        "example": "We need to appraise the investment proposal against its costs, benefits, and execution risks.",
+        "everydayExample": "An expert appraised the old painting before we sold it.",
+        "usageNote": "Appraise means assess; apprise means inform and usually takes apprise someone of something. Appraisal is the related noun. Appraise is more deliberate or formal than look over.",
+        "recallPrompt": "Explain what you would examine when appraising an investment proposal."
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Use today's verb for careful assessment: Before approving the investment, we must ________ the proposal.",
+        "answer": "appraise",
+        "accepted": [
+          "appraise"
+        ],
+        "note": "Appraise means assess quality, performance, or value."
+      },
+      {
+        "prompt": "Complete the pattern: The chair rebuked him ________ ignoring the safety warning.",
+        "answer": "for",
+        "accepted": [
+          "for"
+        ],
+        "note": "Rebuke someone for something or for doing something."
+      },
+      {
+        "prompt": "Name today's pale, tapered root vegetable, in the plural: roasted ________.",
+        "answer": "parsnips",
+        "accepted": [
+          "parsnips"
+        ],
+        "note": "Parsnip has the regular plural parsnips."
+      },
+      {
+        "prompt": "Which old-fashioned literary noun traditionally describes a husband whose wife has been unfaithful?",
+        "answer": "cuckold",
+        "accepted": [
+          "cuckold"
+        ],
+        "note": "Cuckold is loaded and can be insulting. Treat it as recognition vocabulary, not a casual label."
+      },
+      {
+        "prompt": "Choose the assessment verb, not the verb meaning inform: The expert will ________ the painting's value.",
+        "answer": "appraise",
+        "accepted": [
+          "appraise"
+        ],
+        "note": "Appraise means assess; apprise someone of something means inform them."
+      },
+      {
+        "prompt": "Complete with today's noun: The dismissive remark earned him a sharp ________.",
+        "answer": "rebuke",
+        "accepted": [
+          "rebuke"
+        ],
+        "note": "A rebuke is a strong expression of disapproval."
+      }
+    ],
+    "story": {
+      "title": "An evening at the community kitchen",
+      "cues": [
+        "Assessment",
+        "Dinner",
+        "Reading",
+        "Respect"
+      ],
+      "highlights": [
+        "appraise",
+        "parsnips",
+        "cuckold",
+        "rebuke"
+      ],
+      "paragraphs": [
+        "After work, Maya visited a community kitchen to appraise a proposal for a surplus-food partnership. Volunteers were preparing roasted parsnips, and she asked about storage, food safety, and the reliability of donations.",
+        "Over dinner, the organiser mentioned a play the reading group was discussing. Its jealous husband feared becoming a cuckold. When a visitor turned the literary discussion into a personal joke about another volunteer's marriage, the organiser gave him a firm rebuke.",
+        "Maya left with two lessons: assess a partnership through evidence, and protect people's dignity even in an informal conversation."
+      ]
+    }
   }
 ]

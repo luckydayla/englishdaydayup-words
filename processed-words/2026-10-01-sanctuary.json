@@ -1,0 +1,137 @@
+{
+  "id": "2026-10-01-sanctuary",
+  "date": "2026-10-01",
+  "label": "Set 02",
+  "words": [
+    {
+      "term": "sanctuary",
+      "type": "Noun",
+      "meaning": "A safe, peaceful place offering refuge from danger, stress, or disturbance; also a protected place for wildlife or a holy place.",
+      "pronunciation": "/ˈsæŋktʃuəri/",
+      "register": "Neutral; often evocative or figurative",
+      "pattern": "a sanctuary from stress · find sanctuary in a place · a wildlife sanctuary",
+      "cue": "a place where you feel safe",
+      "example": "The quiet courtyard became a sanctuary for employees during the demanding transformation programme.",
+      "everydayExample": "After a noisy day, my garden is my sanctuary.",
+      "usageNote": "A sanctuary emphasizes safety or refuge; an oasis emphasizes welcome relief amid difficult surroundings. Use a sanctuary from stress, not a sanctuary of stress.",
+      "recallPrompt": "Describe a place that gives you sanctuary from pressure."
+    },
+    {
+      "term": "testament",
+      "type": "Noun",
+      "meaning": "Something that provides strong evidence of a quality, achievement, or fact, especially in the phrase a testament to.",
+      "pronunciation": "/ˈtestəmənt/",
+      "register": "Neutral to formal; common in praise and reflective writing",
+      "pattern": "a testament to someone's resilience / dedication / skill · stand as a testament to",
+      "cue": "visible proof of a quality",
+      "example": "The successful rollout is a testament to the team's persistence and cross-functional collaboration.",
+      "everydayExample": "Their forty-year friendship is a testament to their loyalty.",
+      "usageNote": "Use a testament to, not a testament of, for this sense. Testimony is a statement or evidence given by a person; testament here is something that demonstrates a quality. Other senses include a will and the Old or New Testament.",
+      "recallPrompt": "Name an achievement that is a testament to someone's persistence."
+    },
+    {
+      "term": "urban oasis",
+      "type": "Noun phrase",
+      "meaning": "A calm, pleasant place that offers relief from the noise, crowds, or pressure of a city.",
+      "pronunciation": "/ˈɜːbən əʊˈeɪsɪs/",
+      "register": "Descriptive; common in travel, property, and lifestyle writing",
+      "pattern": "an urban oasis · create an urban oasis · an urban oasis in the heart of the city",
+      "cue": "a pocket of calm in a busy city",
+      "example": "The company turned its city-centre rooftop into an urban oasis where employees could take a proper break.",
+      "everydayExample": "The little park behind the station is an urban oasis.",
+      "usageNote": "Use an, not a, before urban. Oasis is singular; oases is plural. The phrase is metaphorical, not limited to a desert or a water source. Stress the second syllable of oasis: oh-AY-sis.",
+      "recallPrompt": "Describe an urban oasis in a city you know."
+    },
+    {
+      "term": "cry your eyes out",
+      "type": "Idiomatic expression",
+      "meaning": "Cry intensely or for a long time, usually because you are deeply upset.",
+      "pronunciation": "/kraɪ jər ˈaɪz aʊt/",
+      "register": "Informal and emotionally vivid; avoid it in formal reports",
+      "pattern": "cry my / your / her / his / our / their eyes out · cried her eyes out",
+      "cue": "cry very hard",
+      "example": "After the factory closure, a colleague told me she had cried her eyes out at home; I listened without trying to minimize her loss.",
+      "everydayExample": "I cried my eyes out at the end of the film.",
+      "usageNote": "Change the possessive to match the person: she cried her eyes out. The past tense of cry is cried. It describes intense crying, not necessarily clinical distress or a positive cathartic release.",
+      "recallPrompt": "Tell a short story about someone who cried their eyes out, using the correct possessive."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Complete with today's noun: My garden is a ________ from the pressures of work.",
+      "answer": "sanctuary",
+      "accepted": [
+        "sanctuary"
+      ],
+      "note": "A sanctuary offers safety or refuge. The pattern is a sanctuary from something."
+    },
+    {
+      "prompt": "The successful rollout demonstrates the team's persistence. Complete with today's noun: It is a ________ to their persistence.",
+      "answer": "testament",
+      "accepted": [
+        "testament"
+      ],
+      "note": "Use a testament to a quality or achievement."
+    },
+    {
+      "prompt": "Complete the preposition: Their lasting friendship is a testament ________ their loyalty.",
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "note": "The established pattern is a testament to, not of."
+    },
+    {
+      "prompt": "Use today's two-word phrase: The peaceful city-centre park is an ________.",
+      "answer": "urban oasis",
+      "accepted": [
+        "urban oasis"
+      ],
+      "note": "An urban oasis offers calm and relief within a busy city."
+    },
+    {
+      "prompt": "Complete the article: The rooftop garden is ________ urban oasis.",
+      "answer": "an",
+      "accepted": [
+        "an"
+      ],
+      "note": "Urban begins with a vowel sound, so use an."
+    },
+    {
+      "prompt": "Use today's idiom in the past tense: The film upset me so much that I ________.",
+      "answer": "cried my eyes out",
+      "accepted": [
+        "cried my eyes out"
+      ],
+      "note": "Use cried for the past tense, and my because the subject is I."
+    },
+    {
+      "prompt": "Complete the possessive: When Lena heard the news, she cried ________ eyes out.",
+      "answer": "her",
+      "accepted": [
+        "her"
+      ],
+      "note": "The possessive agrees with the person who is crying."
+    }
+  ],
+  "story": {
+    "title": "A place to breathe",
+    "cues": [
+      "Change",
+      "Loss",
+      "Refuge",
+      "Care"
+    ],
+    "highlights": [
+      "sanctuary",
+      "testament",
+      "urban oasis",
+      "cried her eyes out"
+    ],
+    "paragraphs": [
+      "After an exhausting supply-chain transformation, Maya noticed that people had nowhere quiet to take a break. The team converted an unused courtyard at its city-centre office into an urban oasis, with trees, benches, and no meeting tables. It became a sanctuary from the constant noise and pressure.",
+      "One afternoon, Lena sat there with Maya and admitted that she had cried her eyes out the previous night. Her old factory was closing, and she missed the colleagues who had shaped her career. Maya listened instead of offering a quick motivational speech.",
+      "A month later, the courtyard was full of people talking, resting, or simply sitting quietly. To Maya, it was a testament to a simple leadership principle: helping people adapt to change also means giving them room to feel what they have lost."
+    ]
+  }
+}
