@@ -1638,5 +1638,264 @@
       "https://dictionary.cambridge.org/us/dictionary/english/ethereal",
       "https://dictionary.cambridge.org/us/dictionary/english/out-of-thin-air"
     ]
+  },
+  {
+    "id": "2026-11-02-direct",
+    "date": "2026-11-02",
+    "label": "Set 01",
+    "words": [
+      {
+        "term": "turn the tables",
+        "pronunciation": "/tɜːn ðə ˈteɪbəlz/",
+        "type": "Idiomatic expression",
+        "register": "Neutral to informal; competitive",
+        "meaning": "Reverse a situation so that the person or group previously at a disadvantage gains the advantage.",
+        "pattern": "turn the tables on someone · turn the tables with a stronger offer",
+        "cue": "the weaker side gains the upper hand",
+        "example": "A reliable replenishment service helped the smaller brand turn the tables on its larger rival.",
+        "everydayExample": "After losing the first game, I turned the tables on my brother in the rematch.",
+        "usageNote": "Keep tables plural and use on before the opponent. This means reversing an advantage, not simply changing a situation; turn a corner means begin to improve.",
+        "recallPrompt": "Describe how a weaker competitor could turn the tables on a market leader."
+      },
+      {
+        "term": "vinyl record",
+        "pronunciation": "/ˌvaɪnəl ˈrekɔːd/",
+        "type": "Noun phrase",
+        "register": "Neutral; music",
+        "meaning": "A flat disc, typically made of vinyl, with grooves that reproduce recorded sound when played on a record player.",
+        "pattern": "play / collect a vinyl record · a vinyl collection · a record player",
+        "cue": "a grooved music disc, not a CD",
+        "example": "The brand partnered with a record shop to produce a limited-edition vinyl record for a launch event.",
+        "everydayExample": "I found an old vinyl record in a second-hand shop.",
+        "usageNote": "Stress the first syllable of the noun record: RE-cord, unlike the verb re-CORD. Vinyl is often uncountable for the medium: I collect vinyl. Vinyl records is the clearest plural for individual discs.",
+        "recallPrompt": "Describe a vinyl record to someone who has only streamed music."
+      },
+      {
+        "term": "daredevil",
+        "pronunciation": "/ˈdeəˌdevəl/",
+        "type": "Noun and adjective",
+        "register": "Informal; admiring or critical depending on context",
+        "meaning": "A person who enjoys taking dangerous risks; as an adjective, describing daring, risky acts or the people who perform them.",
+        "pattern": "a daredevil · a daredevil stunt / rider · something of a daredevil",
+        "cue": "thrilled by dangerous risks",
+        "example": "The safety director rejected a daredevil stunt proposed for the brand's promotional event.",
+        "everydayExample": "My cousin is a daredevil who loves extreme sports.",
+        "usageNote": "Not a neutral synonym for brave: it can suggest recklessness. Use courageous or highly trained for professionals managing necessary risks. The adjective is normally used before a noun.",
+        "recallPrompt": "Explain the difference between a courageous decision and daredevil behaviour."
+      },
+      {
+        "term": "catch one's breath",
+        "aliases": [
+          "catch my breath",
+          "catch your breath",
+          "catch her breath",
+          "catch his breath",
+          "catch our breath",
+          "catch their breath"
+        ],
+        "pronunciation": "/kætʃ wʌnz ˈbreθ/",
+        "type": "Idiomatic expression",
+        "register": "Neutral; literal or figurative",
+        "meaning": "Pause until you can breathe comfortably again after exertion; figuratively, take a short rest after intense activity. It can also describe a sudden intake of breath from surprise or emotion.",
+        "pattern": "stop / pause to catch my breath · give someone a moment to catch their breath",
+        "cue": "pause and recover your breathing",
+        "example": "After the intense launch period, the team needed a day to catch its breath before starting the next phase.",
+        "everydayExample": "I stopped halfway up the hill to catch my breath.",
+        "usageNote": "Change the possessive to match the subject. Breath /breθ/ is a noun; breathe /briːð/ is a verb. Past: caught my breath. Catch my breath usually means recover; hold my breath means deliberately stop breathing for a time.",
+        "recallPrompt": "Describe a busy period after which you needed to catch your breath."
+      },
+      {
+        "term": "catch someone off guard",
+        "aliases": [
+          "caught off guard",
+          "be caught off guard",
+          "caught me off guard",
+          "catch me off guard"
+        ],
+        "pronunciation": "/kætʃ ˌsʌmwʌn ɒf ˈɡɑːd/",
+        "type": "Idiomatic expression",
+        "register": "Neutral; common in business and conversation",
+        "meaning": "Surprise someone when they are unprepared, often leaving them unsure how to respond.",
+        "pattern": "catch someone off guard · be caught off guard by a question / announcement",
+        "cue": "surprised and unprepared",
+        "example": "The retailer's sudden order cancellation caught the planning team off guard.",
+        "everydayExample": "Her unexpected compliment caught me off guard.",
+        "usageNote": "Caught is the past tense and past participle of catch. It can describe pleasant as well as unpleasant surprises. Write off guard without a hyphen in this pattern; not caught of guard.",
+        "recallPrompt": "Describe a question that caught you off guard and how you responded."
+      },
+      {
+        "term": "catch one's death",
+        "aliases": [
+          "catch your death",
+          "catch my death",
+          "catch one's death of cold",
+          "catch your death of cold"
+        ],
+        "pronunciation": "/kætʃ wʌnz ˈdeθ/",
+        "type": "Idiomatic expression",
+        "register": "Informal; often British, humorous, or old-fashioned",
+        "meaning": "An exaggerated way of saying that someone may become very ill with a cold, often used to urge them to wear warmer or drier clothes.",
+        "pattern": "You'll catch your death! · catch your death of cold",
+        "cue": "put a coat on, says the exaggerated warning",
+        "example": "As colleagues left the site in the rain, one joked, You'll catch your death without a coat! The formal safety notice used plain instructions instead.",
+        "everydayExample": "Put something warm on—you'll catch your death out there!",
+        "usageNote": "Not usually a literal prediction of death and not appropriate for serious safety or medical advice. Colds are caused by viruses; the idiom must not be taught as proof that cold weather itself causes infection. Change your to my, his, or her as needed.",
+        "recallPrompt": "Use the expression in a clearly informal, exaggerated warning about going out without a coat."
+      },
+      {
+        "term": "magic bullet",
+        "pronunciation": "/ˌmædʒɪk ˈbʊlɪt/",
+        "type": "Noun phrase",
+        "register": "Neutral; figurative, common in business",
+        "meaning": "A simple solution expected to solve a difficult problem quickly and completely, often used to say that no such solution exists.",
+        "pattern": "a magic bullet for a problem · there is no magic bullet · look for a magic bullet",
+        "cue": "one easy fix for a complex problem",
+        "example": "AI is not a magic bullet for poor planning; processes, data, and accountability still matter.",
+        "everydayExample": "There is no magic bullet for keeping a busy household organised.",
+        "usageNote": "Usually countable: a magic bullet, not magic bullet alone. Silver bullet is a similar metaphor. The expression can signal scepticism about oversimplified promises; it does not establish a product's effectiveness.",
+        "recallPrompt": "Explain why one technology is not a magic bullet for a business problem."
+      },
+      {
+        "term": "nutrient",
+        "pronunciation": "/ˈnjuːtriənt/",
+        "type": "Noun",
+        "register": "Neutral; nutrition and biology",
+        "meaning": "A substance that a living organism needs for growth, maintenance, or normal functioning.",
+        "pattern": "an essential nutrient · provide / absorb nutrients · nutrient content",
+        "cue": "a substance the body or plant needs",
+        "example": "The product team compared the nutrient content of the two formulations before discussing any claims.",
+        "everydayExample": "The gardener added compost to replenish nutrients in the soil.",
+        "usageNote": "Nutrient is a countable substance; nutrition refers to nourishment or the field of study. Nutritious means providing useful nourishment; nutritional means related to nutrition. A nutrient is not necessarily a vitamin.",
+        "recallPrompt": "Use nutrient and nutrition in two sentences that show the difference."
+      },
+      {
+        "term": "low in saturated fat",
+        "pronunciation": "/ləʊ ɪn ˌsætʃəreɪtɪd ˈfæt/",
+        "type": "Adjective phrase",
+        "register": "Neutral; food and nutrition descriptions",
+        "meaning": "Containing a relatively small amount of saturated fat, a category of dietary fat. The phrase describes that feature only, not the food's entire nutritional quality.",
+        "pattern": "a food / diet low in saturated fat · be low in saturated fat · high in fibre",
+        "cue": "a small amount of one type of fat",
+        "example": "The team checked the composition data before describing the prototype as low in saturated fat.",
+        "everydayExample": "I compared the labels to see which option was low in saturated fat.",
+        "usageNote": "Use low in + substance, not low of. Low in saturated fat is not the same as low in total fat, fat-free, or automatically healthy overall. This entry teaches the phrase, not a numerical labelling threshold or personal dietary recommendation; verify evidence before making a product claim.",
+        "recallPrompt": "Describe one product feature using low in, then explain what that description does not tell you."
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Complete the idiom: The underdog managed to turn the ________ on its rival.",
+        "answer": "tables",
+        "accepted": [
+          "tables"
+        ],
+        "note": "Turn the tables on someone means reverse the balance of advantage."
+      },
+      {
+        "prompt": "Use today's two-word noun phrase for a grooved music disc: a ________.",
+        "answer": "vinyl record",
+        "accepted": [
+          "vinyl record"
+        ],
+        "note": "Record is a noun here, with stress on its first syllable."
+      },
+      {
+        "prompt": "Use today's noun: A person who enjoys dangerous risks is a ________.",
+        "answer": "daredevil",
+        "accepted": [
+          "daredevil"
+        ],
+        "note": "Daredevil can imply recklessness; it is not always straightforward praise."
+      },
+      {
+        "prompt": "Complete the noun: I stopped running to catch my ________.",
+        "answer": "breath",
+        "accepted": [
+          "breath"
+        ],
+        "note": "Breath is the noun; breathe is the verb."
+      },
+      {
+        "prompt": "Complete the pattern: The unexpected question caught me ________ guard.",
+        "answer": "off",
+        "accepted": [
+          "off"
+        ],
+        "note": "Caught someone off guard means surprised them when unprepared."
+      },
+      {
+        "prompt": "Complete the exaggerated informal warning: Put your coat on or you'll catch your ________!",
+        "answer": "death",
+        "accepted": [
+          "death"
+        ],
+        "note": "Catch your death is hyperbole, not a literal prediction or medical explanation."
+      },
+      {
+        "prompt": "Use today's two-word metaphor: There is no ________ for a complex planning problem.",
+        "answer": "magic bullet",
+        "accepted": [
+          "magic bullet"
+        ],
+        "note": "A magic bullet is an imagined simple, complete solution."
+      },
+      {
+        "prompt": "Use today's noun in the plural: Plants absorb essential ________ from their environment.",
+        "answer": "nutrients",
+        "accepted": [
+          "nutrients"
+        ],
+        "note": "Nutrients are substances; nutrition is nourishment or its study."
+      },
+      {
+        "prompt": "Complete the preposition: This option is low ________ saturated fat.",
+        "answer": "in",
+        "accepted": [
+          "in"
+        ],
+        "note": "Use low in or high in a nutrient or ingredient."
+      }
+    ],
+    "story": {
+      "title": "The launch that needed more than a slogan",
+      "cues": [
+        "Surprise",
+        "Reset",
+        "Evidence",
+        "Reversal"
+      ],
+      "highlights": [
+        "vinyl record",
+        "caught her off guard",
+        "catch her breath",
+        "daredevil",
+        "catch your death",
+        "magic bullet",
+        "nutrient",
+        "low in saturated fat",
+        "turn the tables"
+      ],
+      "paragraphs": [
+        "Maya's FMCG team planned a small product launch with a local record shop. A DJ would play a vinyl record while guests tried the prototype. An overnight forecast of heavy rain caught her off guard, and she took a moment to catch her breath before moving the event indoors.",
+        "The agency suggested rescuing the publicity with a daredevil outdoor stunt. Maya refused. As a colleague ran in without a coat, the DJ joked, You'll catch your death out there! Everyone laughed, but the team kept its actual safety instructions clear and practical.",
+        "Inside, a marketer wanted one dramatic health slogan. Maya reminded him that there was no magic bullet for earning trust. The nutrient data mattered: even if a product was low in saturated fat, that alone did not describe its overall nutritional quality.",
+        "The team used clear information, a good tasting experience, and reliable availability instead of hype. Those strengths gave the small brand a chance to turn the tables on its larger rival."
+      ]
+    },
+    "reviewDates": {
+      "day3": "2026-11-05",
+      "day5": "2026-11-07",
+      "day15": "2026-11-17"
+    },
+    "sources": [
+      "https://www.dictionary.com/browse/turn-the-tables",
+      "https://dictionary.cambridge.org/us/dictionary/english/daredevil",
+      "https://dictionary.cambridge.org/us/dictionary/english/catch-breath",
+      "https://dictionary.cambridge.org/dictionary/english/catch-off-guard",
+      "https://dictionary.cambridge.org/dictionary/english/catch-death-of-cold",
+      "https://dictionary.cambridge.org/dictionary/english/magic-bullet",
+      "https://dictionary.cambridge.org/us/dictionary/english/nutrient",
+      "https://dictionary.cambridge.org/dictionary/english/saturated-fat"
+    ]
   }
 ]
